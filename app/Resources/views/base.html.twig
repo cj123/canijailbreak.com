@@ -3,7 +3,11 @@
     <head>
         <title>Can I Jailbreak? - {% block title %}{% endblock %}</title>
         <link rel="stylesheet" type="text/css" href="//ipsw.me/assets/css/ipsw.me.theme.css">
-        <link rel="stylesheet" type="text/css" href="//canijailbreak.com/static/css/style.css">
+        {% block stylesheets %}
+            {% stylesheets '@AppBundle/Resources/public/css/*' filter='cssrewrite' %}
+            <link rel="stylesheet" type="text/css" href="{{ asset_url }}">
+            {% endstylesheets %}
+        {% endblock %}
         <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="shortcut icon" type="image/x-icon" href="//ipsw.me/assets/images/favicon.ico">
 

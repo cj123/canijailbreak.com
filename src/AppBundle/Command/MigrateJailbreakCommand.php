@@ -66,6 +66,5 @@ class MigrateJailbreakCommand extends ContainerAwareCommand
             $em->persist($jb);
             $em->flush();
         }
-
     }
 }

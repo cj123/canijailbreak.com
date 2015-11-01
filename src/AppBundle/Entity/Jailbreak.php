@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Jailbreak
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="AppBundle\Entity\JailbreakRepository")
+ * @ORM\Entity()
  */
 class Jailbreak
 {
@@ -379,35 +379,5 @@ class Jailbreak
     public function getMobilesafari()
     {
         return $this->mobilesafari;
-    }
-
-    /**
-     * @return array
-     */
-    public function getIconNames()
-    {
-        $names = [];
-
-        if ($this->linux) {
-            $names["Linux"] = "linux";
-        }
-
-        if ($this->windows) {
-            $names["Windows"] = "windows";
-        }
-
-        if ($this->osx) {
-            $names["OS X"] = "apple";
-        }
-
-        if ($this->mobilesafari) {
-            $names["Mobile Safari"] = "mobile";
-        }
-
-        if (count($names) === 0) {
-            $names["Unknown"] = "question";
-        }
-
-        return $names;
     }
 }

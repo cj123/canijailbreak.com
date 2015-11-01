@@ -7,3 +7,8 @@ services:
 #    service_name:
 #        class: AppBundle\Directory\ClassName
 #        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+    app.twig_extension:
+        class: AppBundle\Twig\IconHelperExtension
+        public: false
+        tags:
+            - { name: twig.extension }

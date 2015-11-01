@@ -30,7 +30,7 @@
                 <p class="text-warning">{{ mostRecent.caveats }}</p>
             {% endif %}
 
-            {% for platform, iconName in mostRecent.getIconNames() %}
+            {% for platform, iconName in mostRecent|iconNames %}
                 <i class="fa fa-{{ iconName }}" title="{{ platform }} compatible"></i>
             {% endfor %}
         {% else %}
@@ -77,7 +77,7 @@
                         </a>.
                     </p>
 
-                    {% for platform, iconName in mostRecent.getIconNames() %}
+                    {% for platform, iconName in jailbreak|iconNames %}
                         <i class="fa fa-{{ iconName }}" title="{{ platform }} compatible"></i>
                     {% endfor %}
 
