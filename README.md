@@ -22,9 +22,11 @@ A few guidelines for contributing:
 
 ```bash
 
+$ npm install
 $ composer install
 $ php app/console doctrine:schema:update --force
 $ php app/console jailbreaks:migrate
+$ gulp build
 
 ```
 
@@ -34,7 +36,7 @@ $ php app/console jailbreaks:migrate
 $ php app/console server:run
 ```
 
-then go to http://localhost:8000 on your machine
+then go to `http://localhost:8000` on your machine
 
 ## tests
 
