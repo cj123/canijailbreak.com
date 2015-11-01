@@ -48,7 +48,7 @@ class DefaultController extends Controller
 
         $response = new JsonResponse($data);
         $response->setEncodingOptions(JSON_UNESCAPED_SLASHES);
-
+        $response->headers->set('Access-Control-Allow-Origin', '*');
         return $response;
     }
 }
