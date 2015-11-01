@@ -1,0 +1,96 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="most-recent text-center">
+        <p>My iOS device is on
+
+            <strong>
+                iOS {{ mostRecent.startiOS }}
+                {% if mostRecent.endiOS is not null %}
+                    &rarr; {{ mostRecent.endiOS }}
+                {% endif %}
+            </strong>
+
+            <br>
+        </p>
+
+        {% if mostRecent.jailbroken %}
+            <p class="text-success">
+                <i class="fa fa-check"></i>
+                Jailbreak using
+                <a href="{{ mostRecent.url }}">
+                    {{ mostRecent.name }} version {{ mostRecent.version }}
+                </a>.
+            </p>
+
+            {% if mostRecent.caveats %}
+                <p class="text-warning">{{ mostRecent.caveats }}</p>
+            {% endif %}
+
+            {% for platform, iconName in mostRecent.getIconNames() %}
+                <i class="fa fa-{{ iconName }}" title="{{ platform }} compatible"></i>
+            {% endfor %}
+        {% else %}
+            <p class="text-danger">
+                <i class="fa fa-times"></i>
+                No jailbreak yet <i class="fa fa-frown-o"></i>.
+                Check back later!
+            </p>
+
+            {% if mostRecent.caveats %}
+                <p class="text-warning">{{ mostRecent.caveats }}</p>
+            {% endif %}
+
+            <em>
+                If you are already jailbroken, we recommend that you
+                <strong>do not upgrade</strong> or you will lose your jailbreak!
+            </em>
+
+        {% endif %}
+
+    </div>
+
+    <hr>
+
+    <div class="previous">
+        {% for jailbreak in jailbreaks %}
+            <div class="col-xs-12 col-sm-6 col-md-4 jailbreak">
+                <h3>
+                    iOS {{ jailbreak.startiOS }}
+                    {% if jailbreak.endiOS is not null %}
+                        &rarr; {{ jailbreak.endiOS }}
+                    {% endif %}
+                </h3>
+
+                {% if jailbreak.jailbroken %}
+                    <p class="text-success">
+                        <i class="fa fa-check"></i>
+                        Jailbreak using
+                        <a href="{{ jailbreak.url }}">
+                            {{ jailbreak.name }}
+                            {% if jailbreak.version is not null %}
+                                version {{ jailbreak.version }}
+                            {% endif %}
+                        </a>.
+                    </p>
+
+                    {% for platform, iconName in mostRecent.getIconNames() %}
+                        <i class="fa fa-{{ iconName }}" title="{{ platform }} compatible"></i>
+                    {% endfor %}
+
+                    {% if jailbreak.caveats %}
+                        <p class="text-warning">{{ jailbreak.caveats }}</p>
+                    {% endif %}
+                {% else %}
+                    <p class="text-danger">
+                        <i class="fa fa-times"></i> No jailbreak yet :(. Check back later!<br>
+                    </p>
+                {% endif %}
+
+            </div>
+        {% endfor %}
+
+        <div class="clearfix"></div>
+    </div>
+{% endblock %}

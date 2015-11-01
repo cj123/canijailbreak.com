@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Can I Jailbreak? - {% block title %}{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="//ipsw.me/assets/css/ipsw.me.theme.css">
+        <link rel="stylesheet" type="text/css" href="//canijailbreak.com/static/css/style.css">
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="//ipsw.me/assets/images/favicon.ico">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Find out whether you can jailbreak your iOS device.">
+        <meta name="keywords" content="jailbreak, ios, jailbreak ios, iphone, ipad, redsn0w, taig, p0sixspwn, apple">
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-64656122-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="top">
+                <div class="col-md-6 col-md-offset-2">
+                    <div class="col-sm-4 hidden-xs">
+                        <a href="http://www.icj.me/"><img src="//www.icj.me/assets/images/penguin.png" style="width: 100px; height: 100px;" alt="Just a Penguin"></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 text-center">
+                        <h1>Can I Jailbreak?</h1>
+                        <p style="color: grey"><small>by <a href="https://www.icj.me/">Just a Penguin</a></small></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 navigation">
+                    <a href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+                    <a class="text-danger" href="/help"><i class="fa fa-fw fa-life-ring"></i> Get Jailbreaking Help</a>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            {% block body %}{% endblock %}
+
+            <hr>
+
+            <div class="footer">
+                <p><a href="/">canijailbreak.com</a> is <a href="https://github.com/cj123/canijailbreak.com">open source on GitHub</a>. thanks to chpwn for the <a href="http://jailbrea.kr">inspiration</a>. previous information (and more) gathered from <a href="https://www.theiphonewiki.com/wiki/Jailbreak">The iPhone Wiki</a>.<br></p>
+
+                <p>if you want to use this information in your project, <a href="/jailbreaks.json">check out our API <i class="fa fa-code"></i></a></p>
+
+                <a href="https://ipsw.me/" class="btn btn-info">IPSW Downloads can be found here</a>
+            </div>
+        </div>
+    </body>
+</html>
