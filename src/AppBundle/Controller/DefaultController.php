@@ -44,7 +44,13 @@ class DefaultController extends Controller
             $this->get('kernel')->getRootDir() . "/data/jailbreaks.json"
         );
 
-        $data = json_decode($jsonFile);
+        $data = json_decode($jsonFile, true);
+
+        foreach ($data["jailbreaks"] as $index => $jailbreak) {
+            if (!isset($jailbreak["ios"]["end"])) {
+                $data["jailbreaks"][$index]["ios"]["end"] = "";
+            }
+        }
 
         $response = new JsonResponse($data);
         $response->setEncodingOptions(JSON_UNESCAPED_SLASHES);
