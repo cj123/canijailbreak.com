@@ -1,4 +1,4 @@
-canijailbreak.com [![Build Status](https://travis-ci.org/cj123/symfony-canijailbreak.com.svg?branch=master)](https://travis-ci.org/cj123/symfony-canijailbreak.com)
+canijailbreak.com [![Build Status](https://travis-ci.org/cj123/canijailbreak.com.svg?branch=master)](https://travis-ci.org/cj123/canijailbreak.com)
 =================
 
 the symfony rewrite.
