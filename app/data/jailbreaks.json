@@ -19,9 +19,9 @@
             "url": "http://en.pangu.io",
             "ios": {
                 "start": "9.0",
-                "end": "9.1 [64 bit only]"
+                "end": "9.1"
             },
-            "caveats": "",
+            "caveats": "iOS 9.1 Jailbreak is for 64 bit devices only.",
 
             "platforms": [
                 "Windows",
