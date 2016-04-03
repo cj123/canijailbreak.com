@@ -7,7 +7,7 @@
             "url": "",
             "ios": {
                 "start": "9.2",
-                "end": "9.3"
+                "end": "9.3.1"
             },
             "caveats": "",
             "platforms": []
