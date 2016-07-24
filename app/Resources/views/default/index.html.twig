@@ -21,13 +21,11 @@
             <p class="text-success">
                 <i class="fa fa-check"></i>
                 Jailbreak using
-                <a href="{{ mostRecent.url }}">
-                    {{ mostRecent.name }} version {{ mostRecent.version }}
-                </a>.
+                <a href="{{ mostRecent.url }}">{{ mostRecent.name }} {{ mostRecent.version }}</a>.
             </p>
 
             {% if mostRecent.caveats %}
-                <p class="text-warning">{{ mostRecent.caveats }}</p>
+                <p class="text-warning">{{ mostRecent.caveats|raw }}</p>
             {% endif %}
 
             {% for platform, iconName in mostRecent|iconNames %}
@@ -41,7 +39,7 @@
             </p>
 
             {% if mostRecent.caveats %}
-                <p class="text-warning">{{ mostRecent.caveats }}</p>
+                <p class="text-warning">{{ mostRecent.caveats|raw }}</p>
             {% endif %}
 
             <em>
@@ -52,6 +50,19 @@
         {% endif %}
 
     </div>
+
+    <br><br>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- responsive ad -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-9421549393799412"
+         data-ad-slot="3483797882"
+         data-ad-format="auto"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 
     <hr>
 
@@ -82,7 +93,7 @@
                     {% endfor %}
 
                     {% if jailbreak.caveats %}
-                        <p class="text-warning">{{ jailbreak.caveats }}</p>
+                        <p class="text-warning">{{ jailbreak.caveats|raw }}</p>
                     {% endif %}
                 {% else %}
                     <p class="text-danger">
@@ -95,4 +106,15 @@
 
         <div class="clearfix"></div>
     </div>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- responsive ad -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-9421549393799412"
+         data-ad-slot="3483797882"
+         data-ad-format="auto"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 {% endblock %}
