@@ -3,15 +3,16 @@
         {
             "jailbroken": true,
             "name": "Pangu",
-            "version": "PP盘古越狱",
-            "url": "https://www.reddit.com/r/jailbreak/comments/4ucsht/tutorial_how_to_install_pangu_jailbreak_92_933/",
+            "version": "1.0",
+            "url": "http://en.pangu.io/help.html",
             "ios": {
                 "start": "9.2",
                 "end": "9.3.3"
             },
-            "caveats": "<strong>sigh</strong>, Here goes: this jailbreak is <strong>semi-tethered</strong>. It's also Windows only. And not in English. If you <em>must jailbreak</em> then click the link above to a semi-useful reddit thread.",
+            "caveats": "64 bit devices only. Follow the Cydia Impactor method of installing the Jailbreak.",
             "platforms": [
-                "Windows"
+                "Windows",
+                "OS X"
             ]
         },
         {
