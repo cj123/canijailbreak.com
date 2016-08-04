@@ -1,7 +1,5 @@
-canijailbreak.com [![Build Status](https://travis-ci.org/cj123/canijailbreak.com.svg?branch=master)](https://travis-ci.org/cj123/canijailbreak.com)
+canijailbreak.com
 =================
-
-the symfony rewrite.
 
 a replacement (for the replacement) jailbreaking site for the (seemingly out of date) [jailbrea.kr](http://jailbrea.kr).
 
@@ -22,30 +20,21 @@ A few guidelines for contributing:
 
 ```bash
 
-$ npm install
-$ composer install
-$ php app/console doctrine:schema:update --force
-$ php app/console jailbreaks:migrate
-$ gulp build
-
+$ go get github.com/cj123/canijailbreak.com
+$ cd $GOPATH/src/github.com/cj123/canijailbreak.com
+$ go build .
 ```
 
 ## running it
 
 ```bash
-$ php app/console server:run
+$ ./canijailbreak.com --help
 ```
 
-then go to `http://localhost:8000` on your machine
-
-## tests
-
-```bash
-phpunit -c app/
-```
+This will generate output, by default into `./static`. 
 
 ## adding jailbreaks
 
-look in the file `app/data/jailbreaks.json` for a layout
+look in the file `./jailbreaks.json` for a layout
 
-then run `php app/console jailbreaks:migrate`
+then run the `./canijailbreak.com` util again
