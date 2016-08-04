@@ -1,5 +1,5 @@
 build:
-  image: golang
+  image: golang:1.6
   commands:
     - go build -o jailbreak-generate .
     - ./jailbreak-generate -i ./jailbreaks.json -o ./static
