@@ -1,6 +1,7 @@
 canijailbreak.com
 static/*.json
 static/*.html
+secrets.yml
 
 # Created by https://www.gitignore.io/api/go
 
