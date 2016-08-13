@@ -99,6 +99,21 @@
     {
       "jailbroken": true,
       "name": "Pangu",
+      "version": "1.2.1/1.0.0",
+      "url": "http://en.8.pangu.io/",
+      "ios": {
+        "start": "8.0",
+        "end": "8.1"
+      },
+      "caveats": "",
+      "platforms": [
+        "OS X",
+        "Windows",
+      ]
+    }
+    {
+      "jailbroken": true,
+      "name": "Pangu",
       "version": "1.2.1",
       "url": "http://en.7.pangu.io/",
       "ios": {
