@@ -31,7 +31,7 @@
       "jailbroken": true,
       "name": "Pangu",
       "version": "1.3.0",
-      "url": "http://en.pangu.io",
+      "url": "http://en.9.pangu.io",
       "ios": {
         "start": "9.0",
         "end": "9.1"
