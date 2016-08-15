@@ -1,0 +1,13 @@
+language: go
+
+go:
+  - tip
+  - 1.6
+
+install:
+  - go get ./...
+  - go test -cover ./...
+  - go build -o canijailbreak .
+
+script:
+  ./canijailbreak -i jailbreaks.json -o static/
