@@ -108,9 +108,9 @@
       "caveats": "",
       "platforms": [
         "OS X",
-        "Windows",
+        "Windows"
       ]
-    }
+    },
     {
       "jailbroken": true,
       "name": "Pangu",
