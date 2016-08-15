@@ -1,4 +1,4 @@
-canijailbreak.com
+canijailbreak.com [![Build Status](https://travis-ci.org/cj123/canijailbreak.com.svg?branch=master)](https://travis-ci.org/cj123/canijailbreak.com)
 =================
 
 a replacement (for the replacement) jailbreaking site for the (seemingly out of date) [jailbrea.kr](http://jailbrea.kr).
