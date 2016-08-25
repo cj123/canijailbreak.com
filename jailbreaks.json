@@ -6,7 +6,8 @@
       "version": "",
       "url": "",
       "ios": {
-        "start": "9.3.4"
+        "start": "9.3.4",
+        "end": "9.3.5"
       },
       "caveats": "",
       "platforms": []
