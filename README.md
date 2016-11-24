@@ -1,5 +1,11 @@
-canijailbreak.com
-=================
+<h1 align="center">
+  <img src="https://www.icj.me/assets/images/penguin.png"><br>
+  canijailbreak.com
+</h1>
+
+<p align="center">
+  <a href="https://travis-ci.org/cj123/canijailbreak.com"><img src="https://travis-ci.org/cj123/canijailbreak.com.svg?branch=master" alt="Build Status"></a>
+</p>
 
 a replacement (for the replacement) jailbreaking site for the (seemingly out of date) [jailbrea.kr](http://jailbrea.kr).
 
