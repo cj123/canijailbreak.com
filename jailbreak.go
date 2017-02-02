@@ -42,7 +42,7 @@ func (j JailbreakJSON) validate() error {
 			return nil
 		}
 
-		if res.StatusCode > 400 {
+		if res.StatusCode >= 400 {
 			return fmt.Errorf("URL: %s for jailbreak %s (iOS %s) is not valid (status code: %d)", jailbreak.URL, jailbreak.Name, jailbreak.Firmwares.Start, res.StatusCode)
 		}
 
