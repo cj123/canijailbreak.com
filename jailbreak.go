@@ -2,7 +2,10 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
+	"log"
+	"net/http"
 	"os"
 )
 
@@ -23,6 +26,30 @@ type Jailbreak struct {
 
 type JailbreakJSON struct {
 	Jailbreaks []*Jailbreak `json:"jailbreaks"`
+}
+
+func (j JailbreakJSON) validate() error {
+	for _, jailbreak := range j.Jailbreaks {
+		if jailbreak.URL == "" {
+			continue
+		}
+
+		log.Printf("Testing url: %s for jailbreak %s %s\n", jailbreak.URL, jailbreak.Name, jailbreak.Version)
+
+		res, err := http.Get(jailbreak.URL)
+
+		if err != nil {
+			return nil
+		}
+
+		if res.StatusCode > 400 {
+			return fmt.Errorf("URL: %s for jailbreak %s (iOS %s) is not valid (status code: %d)", jailbreak.URL, jailbreak.Name, jailbreak.Firmwares.Start, res.StatusCode)
+		}
+
+		res.Body.Close()
+	}
+
+	return nil
 }
 
 func (j JailbreakJSON) marshalToFile(filename string) error {

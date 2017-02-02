@@ -3,8 +3,8 @@ package main
 import (
 	"bytes"
 	"flag"
-	"fmt"
 	"io/ioutil"
+	"log"
 	"os"
 	"path"
 )
@@ -25,15 +25,19 @@ func main() {
 	jbs, err := getJailbreaks(inFile)
 
 	if err != nil {
-		fmt.Println("Unable to open jailbreaks file at: " + inFile)
-		os.Exit(1)
+		log.Fatalln("Unable to open jailbreaks file at: " + inFile)
+	}
+
+	err = jbs.validate()
+
+	if err != nil {
+		log.Fatalln(err)
 	}
 
 	err = os.MkdirAll(outDir, 0755)
 
 	if err != nil {
-		fmt.Println("Unable to create output directory at: " + outDir)
-		os.Exit(1)
+		log.Fatalln("Unable to create output directory at: " + outDir)
 	}
 
 	pages := [...]page{
@@ -63,8 +67,7 @@ func main() {
 		)
 
 		if err != nil {
-			fmt.Println("Error rendering `" + page.template + "` template: " + err.Error())
-			os.Exit(1)
+			log.Fatalln("Error rendering `" + page.template + "` template: " + err.Error())
 		}
 
 		outFile := path.Join(outDir, page.toHTML(page.template))
@@ -72,8 +75,7 @@ func main() {
 		err = ioutil.WriteFile(outFile, buf.Bytes(), 0644)
 
 		if err != nil {
-			fmt.Println("Error outputting file `" + outFile + "`: " + err.Error())
-			os.Exit(1)
+			log.Fatalln("Error outputting file `" + outFile + "`: " + err.Error())
 		}
 	}
 
