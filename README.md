@@ -7,7 +7,7 @@
   <a href="https://travis-ci.org/cj123/canijailbreak.com"><img src="https://travis-ci.org/cj123/canijailbreak.com.svg?branch=master" alt="Build Status"></a>
 </p>
 
-a replacement (for the replacement) jailbreaking site for the (seemingly out of date) [jailbrea.kr](http://jailbrea.kr).
+a website which tells you whether you can jailbreak your iPhone, iPad, iPod touch or Apple TV.
 
 ## Contributing
 
