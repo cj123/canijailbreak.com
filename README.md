@@ -39,7 +39,7 @@ $ ./canijailbreak.com --help
 
 This will generate output, by default into `./static`. 
 
-## adding jailbreaks
+## adding jailbreaks
 
 look in the file `./jailbreaks.json` for a layout
 
