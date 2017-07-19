@@ -39,7 +39,7 @@ func (j JailbreakJSON) validate() error {
 		res, err := http.Get(jailbreak.URL)
 
 		if err != nil {
-			return nil
+			return err
 		}
 
 		if res.StatusCode >= 400 {

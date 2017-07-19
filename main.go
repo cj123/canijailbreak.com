@@ -31,7 +31,7 @@ func main() {
 	err = jbs.validate()
 
 	if err != nil {
-		log.Fatalln(err)
+		log.Printf("Jailbreak URL validation failed, err: %s", err)
 	}
 
 	err = os.MkdirAll(outDir, 0755)
