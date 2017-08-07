@@ -6,11 +6,42 @@
       "version": "",
       "url": "",
       "ios": {
-        "start": "9.3.4",
+        "start": "10.0",
         "end": "10.3.3"
       },
       "caveats": "",
       "platforms": []
+    },
+    {
+      "jailbroken": true,
+      "name": "Phœnix",
+      "version": "2",
+      "url": "https://phoenixpwn.com",
+      "ios": {
+        "start": "9.3.5"
+      },
+      "caveats": "32 bit devices only. Semi-tethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
+    },
+    {
+      "jailbroken": true,
+      "name": "Home Depot",
+      "version": "RC3",
+      "url": "http://wall.supplies",
+      "ios": {
+        "start": "9.1",
+        "end": "9.3.4"
+      },
+      "caveats": "32 bit devices only. Semi-tethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
     },
     {
       "jailbroken": true,
@@ -24,7 +55,7 @@
       "caveats": "64 bit devices only. Semi-tethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
         "Windows",
-        "OS X",
+        "macOS",
         "Linux"
       ]
     },
@@ -40,7 +71,7 @@
       "caveats": "iOS 9.1 Jailbreak is for 64 bit devices only.",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -66,7 +97,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -94,7 +125,7 @@
       },
       "caveats": "No English version, follow a tutorial to use",
       "platforms": [
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -108,7 +139,7 @@
       },
       "caveats": "",
       "platforms": [
-        "OS X",
+        "macOS",
         "Windows"
       ]
     },
@@ -124,7 +155,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -139,7 +170,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -154,7 +185,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -169,7 +200,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X",
+        "macOS",
         "Linux"
       ]
     },
@@ -184,7 +215,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -198,7 +229,7 @@
       "caveats": "Tethered jailbreak. Not available for iPhone 4S, iPad 2 and iPad 3. Update to a later iOS version.",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -212,7 +243,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -226,7 +257,7 @@
       "caveats": "iPhone 4S only. Tethered for other devices.",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -241,7 +272,7 @@
       "caveats": "Tethered jailbreak. Update to a newer iOS.",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -256,7 +287,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -271,7 +302,7 @@
       "caveats": "iPhone 4 (CDMA) only. Tethered jailbreak. Update to a newer iOS.",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -286,7 +317,7 @@
       "caveats": "iPhone 4 (CDMA) only.",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -301,7 +332,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
@@ -330,7 +361,7 @@
       "caveats": "",
       "platforms": [
         "Windows",
-        "OS X"
+        "macOS"
       ]
     },
     {
