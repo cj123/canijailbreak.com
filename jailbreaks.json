@@ -6,7 +6,7 @@
       "version": "",
       "url": "",
       "ios": {
-        "start": "9.3.4",
+        "start": "10.0",
         "end": "10.3.3"
       },
       "caveats": "",
@@ -15,11 +15,27 @@
     {
       "jailbroken": true,
       "name": "Phœnix",
-      "version": "1.0",
+      "version": "2",
       "url": "https://phoenixpwn.com",
       "ios": {
        "start": "9.3.5",
         "end": "9.3.5"
+      },
+      "caveats": "32 bit devices only. Semi-tethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+        ]
+    },
+    {
+      "jailbroken": true,
+      "name": "Home Depot",
+      "version": "RC3",
+      "url": "http://wall.supplies",
+      "ios": {
+       "start": "9.1",
+        "end": "9.3.4"
       },
       "caveats": "32 bit devices only. Semi-tethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
