@@ -86,7 +86,7 @@ func renderTemplate(w io.Writer, name string, base string, data map[string]inter
 func osIcon(platform string) string {
 	if platform == "Windows" {
 		return "windows"
-	} else if platform == "OS X" {
+	} else if platform == "macOS" {
 		return "apple"
 	} else if platform == "iOS" {
 		return "mobile"
