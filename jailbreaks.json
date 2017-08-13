@@ -68,7 +68,7 @@
         "start": "9.0",
         "end": "9.1"
       },
-      "caveats": "iOS 9.1 Jailbreak is for 640bit devices only.",
+      "caveats": "iOS 9.1 Jailbreak is for 64-bit devices only.",
       "platforms": [
         "Windows",
         "macOS"
