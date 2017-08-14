@@ -20,7 +20,7 @@
       "ios": {
         "start": "9.3.5"
       },
-      "caveats": "32 bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
         "Windows",
         "macOS",
