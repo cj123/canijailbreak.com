@@ -21,7 +21,7 @@
         "start": "10.0.1"
         "end": "10.2"
       },
-      "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "caveats": "64-bit devices, pre-iPhone 7 only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
         "Windows",
         "macOS",
