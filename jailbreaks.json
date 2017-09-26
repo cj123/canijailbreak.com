@@ -75,15 +75,19 @@
       ]
     },
     {
-      "jailbroken": false,
-      "name": "",
-      "version": "",
-      "url": "",
+      "jailbroken": true,
+      "name": "EtasonJB",
+      "version": "RC2",
+      "url": "http://tihmstar.net/etasonjb/",
       "ios": {
         "start": "8.4.1"
       },
-      "caveats": "",
-      "platforms": []
+      "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
     },
     {
       "jailbroken": true,
