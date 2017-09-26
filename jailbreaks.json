@@ -6,11 +6,27 @@
       "version": "",
       "url": "",
       "ios": {
-        "start": "10.0",
+        "start": "10.2.1",
         "end": "11.0"
       },
       "caveats": "",
       "platforms": []
+    },
+    {
+      "jailbroken": true,
+      "name": "Yalu (beta, unstable)",
+      "version": "beta7",
+      "url": "http://www.idownloadblog.com/2017/01/26/jailbreak-ios-10-1-x-yalu/",
+      "ios": {
+        "start": "10.0",
+        "end": "10.2"
+      },
+      "caveats": "Recommended for advanced users only. Does not work on iPhone 7. Follow iDownloadBlog tutorial",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
     },
     {
       "jailbroken": true,
