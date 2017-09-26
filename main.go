@@ -10,14 +10,15 @@ import (
 )
 
 var (
-	inFile string
-	outDir string
+	inFile     string
+	outDir     string
+	skipChecks bool
 )
 
 func init() {
 	flag.StringVar(&inFile, "i", "./jailbreaks.json", "the jailbreaks data file")
 	flag.StringVar(&outDir, "o", "./static", "the output directory. is created if it doesn't exist")
-
+	flag.BoolVar(&skipChecks, "s", false, "skip URL checks")
 	flag.Parse()
 }
 
@@ -28,10 +29,12 @@ func main() {
 		log.Fatalln("Unable to open jailbreaks file at: " + inFile)
 	}
 
-	err = jbs.validate()
+	if !skipChecks {
+		err = jbs.validate()
 
-	if err != nil {
-		log.Printf("Jailbreak URL validation failed, err: %s", err)
+		if err != nil {
+			log.Printf("Jailbreak URL validation failed, err: %s", err)
+		}
 	}
 
 	err = os.MkdirAll(outDir, 0755)
