@@ -45,6 +45,20 @@
     },
     {
       "jailbroken": true,
+      "name": "Jailbreak.me",
+      "version": "4.0",
+      "url": "http://jailbreak.me",
+      "ios": {
+        "start": "9.1",
+        "end": "9.3.4"
+      },
+      "caveats": "32-bit devices only. Visit jailbreak.me in Safari on the iOS device itself.",
+      "platforms": [
+        "iOS"
+      ]
+    },
+    {
+      "jailbroken": true,
       "name": "Home Depot",
       "version": "RC3",
       "url": "http://wall.supplies",
