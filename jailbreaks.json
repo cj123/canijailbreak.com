@@ -7,7 +7,7 @@
       "url": "",
       "ios": {
         "start": "10.2.1",
-        "end": "11.0.2"
+        "end": "11.2.1"
       },
       "caveats": "",
       "platforms": []
@@ -41,6 +41,20 @@
         "Windows",
         "macOS",
         "Linux"
+      ]
+    },
+    {
+      "jailbroken": true,
+      "name": "Jailbreak.me",
+      "version": "4.0",
+      "url": "http://jailbreak.me",
+      "ios": {
+        "start": "9.1",
+        "end": "9.3.4"
+      },
+      "caveats": "32-bit devices only. Visit jailbreak.me in Safari on the iOS device itself.",
+      "platforms": [
+        "iOS"
       ]
     },
     {
