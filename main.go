@@ -30,7 +30,7 @@ func main() {
 	}
 
 	if !skipChecks {
-		err = jbs.validate()
+		err = validate(jbs)
 
 		if err != nil {
 			log.Printf("Jailbreak URL validation failed, err: %s", err)
@@ -44,7 +44,7 @@ func main() {
 	}
 
 	pages := [...]page{
-		page{
+		{
 			base:     "base",
 			template: "index",
 			data: map[string]interface{}{
@@ -52,7 +52,7 @@ func main() {
 				"Jailbreaks": jbs.Jailbreaks[1:],
 			},
 		},
-		page{
+		{
 			base:     "base",
 			template: "help",
 			data:     nil,
@@ -83,5 +83,5 @@ func main() {
 	}
 
 	// marshal the json and output that to the static folder too, for the "api"
-	jbs.marshalToFile(path.Join(outDir, "jailbreaks.json"))
+	marshalToFile(jbs, path.Join(outDir, "jailbreaks.json"))
 }

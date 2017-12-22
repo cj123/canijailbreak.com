@@ -3,32 +3,14 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/cj123/canijailbreak.com/model"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 )
 
-type Jailbreak struct {
-	Jailbroken bool   `json:"jailbroken"`
-	Name       string `json:"name"`
-	Version    string `json:"version"`
-	URL        string `json:"url"`
-
-	Firmwares struct {
-		Start string `json:"start"`
-		End   string `json:"end"`
-	} `json:"ios"`
-
-	Platforms []string `json:"platforms"`
-	Caveats   string   `json:"caveats"`
-}
-
-type JailbreakJSON struct {
-	Jailbreaks []*Jailbreak `json:"jailbreaks"`
-}
-
-func (j JailbreakJSON) validate() error {
+func validate(j *model.JailbreakJSON) error {
 	for _, jailbreak := range j.Jailbreaks {
 		if jailbreak.URL == "" {
 			continue
@@ -52,7 +34,7 @@ func (j JailbreakJSON) validate() error {
 	return nil
 }
 
-func (j JailbreakJSON) marshalToFile(filename string) error {
+func marshalToFile(j *model.JailbreakJSON, filename string) error {
 	out, err := json.Marshal(j)
 
 	if err != nil {
@@ -62,12 +44,12 @@ func (j JailbreakJSON) marshalToFile(filename string) error {
 	return ioutil.WriteFile(filename, out, 0644)
 }
 
-func getJailbreaks(filename string) (jb *JailbreakJSON, err error) {
+func getJailbreaks(filename string) (jb *model.JailbreakJSON, err error) {
 	jailbreakFile, err := os.Open(filename)
 
 	d := json.NewDecoder(jailbreakFile)
 
-	jb = &JailbreakJSON{}
+	jb = &model.JailbreakJSON{}
 	err = d.Decode(&jb)
 
 	if err != nil {
