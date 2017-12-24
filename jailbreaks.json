@@ -6,11 +6,27 @@
       "version": "",
       "url": "",
       "ios": {
-        "start": "10.2.1",
+        "start": "11.0",
         "end": "11.2.1"
       },
       "caveats": "",
       "platforms": []
+    },
+    {
+      "jailbroken": true,
+      "name": "H3lix",
+      "version": "RC1",
+      "url": "https://h3lix.tihmstar.net",
+      "ios": {
+        "start": "10.0",
+        "end": "10.3.3"
+      },
+      "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
     },
     {
       "jailbroken": true,
