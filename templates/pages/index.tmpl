@@ -15,11 +15,11 @@
             <div class="text-success">
                 <i class="fa fa-check"></i>
                 Jailbreak using
-                <a href="{{.MostRecent.URL}}">{{ .MostRecent.Name }} version {{ .MostRecent.Version }}</a>.
+                <a href="{{.MostRecent.URL}}">{{ .MostRecent.Name }}{{ with .MostRecent.Version }} version {{ .MostRecent.Version }}{{ end }}</a>.
             </div>
 
             {{ with .MostRecent.Caveats }}
-                <p class="text-warning">{{ . }}</p>
+                <p class="text-warning">{{ . | trustHTML }}</p>
             {{ end }}
 
             {{ range $plat := .MostRecent.Platforms }}
@@ -33,7 +33,7 @@
             </div>
 
             {{ with .MostRecent.Caveats }}
-                <p class="text-warning">{{ . }}</p>
+                <p class="text-warning">{{ . | trustHTML }}</p>
             {{ end }}
 
             <em>
@@ -86,7 +86,7 @@
 
                     {{ with $jb.Caveats }}
                         <p class="text-warning">
-                            {{ . }}
+                            {{ . | trustHTML }}
                         </p>
                     {{ end }}
                 {{ else }}

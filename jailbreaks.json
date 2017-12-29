@@ -6,11 +6,27 @@
       "version": "",
       "url": "",
       "ios": {
-        "start": "11.0",
+        "start": "11.2",
         "end": "11.2.1"
       },
       "caveats": "",
       "platforms": []
+    },
+    {
+      "jailbroken": true,
+      "name": "LiberIOS",
+      "version": "",
+      "url": "http://newosxbook.com/liberios/",
+      "ios": {
+        "start": "11.0",
+        "end": "11.1.2"
+      },
+      "caveats": "This jailbreak has been released but is not stable yet (no Cydia). If you wish to use it, please stay on iOS 11.0 to iOS 11.1.2 and wait for <a href='https://reddit.com/r/jailbreak'>an update</a>.",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
     },
     {
       "jailbroken": true,

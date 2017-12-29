@@ -49,7 +49,12 @@ func initTemplates() error {
 
 		var err error
 
-		templates[filename], err = template.New(filename).Funcs(template.FuncMap{"osIcon": osIcon}).ParseFiles(files...)
+		templates[filename], err = template.New(filename).Funcs(template.FuncMap{
+			"osIcon": osIcon,
+			"trustHTML": func(s string) template.HTML {
+				return template.HTML(s)
+			},
+		}).ParseFiles(files...)
 
 		if err != nil {
 			return err
