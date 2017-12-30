@@ -6,11 +6,43 @@
       "version": "",
       "url": "",
       "ios": {
-        "start": "10.2.1",
+        "start": "11.2",
         "end": "11.2.1"
       },
       "caveats": "",
       "platforms": []
+    },
+    {
+      "jailbroken": true,
+      "name": "LiberIOS",
+      "version": "",
+      "url": "http://newosxbook.com/liberios/",
+      "ios": {
+        "start": "11.0",
+        "end": "11.1.2"
+      },
+      "caveats": "This jailbreak has been released but is not stable yet (no Cydia). If you wish to use it, please stay on iOS 11.0 to iOS 11.1.2 and wait for <a href='https://reddit.com/r/jailbreak'>an update</a>.",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
+    },
+    {
+      "jailbroken": true,
+      "name": "H3lix",
+      "version": "RC1",
+      "url": "https://h3lix.tihmstar.net",
+      "ios": {
+        "start": "10.0",
+        "end": "10.3.3"
+      },
+      "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
     },
     {
       "jailbroken": true,
@@ -31,7 +63,7 @@
     {
       "jailbroken": true,
       "name": "Phœnix",
-      "version": "3",
+      "version": "4",
       "url": "https://phoenixpwn.com",
       "ios": {
         "start": "9.3.5"
