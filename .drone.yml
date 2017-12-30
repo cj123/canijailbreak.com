@@ -12,25 +12,23 @@ pipeline:
     - tar czf ../canijailbreak.com.tar.gz *
 
   deploy:
-    secrets: [ DEPLOY_KEY, DEPLOY_HOSTS, DEPLOY_TARGET ]
+    secrets: [ plugin_key, DEPLOY_HOSTS, DEPLOY_TARGET, DEPLOY_USER ]
     image: drillster/drone-rsync
     source: ./canijailbreak.com.tar.gz
+    user: $DEPLOY_USER
     delete: false
     recursive: true
+    hosts: [ $DEPLOY_HOSTS ]
+    target: /var/www/canijailbreak.com
     script:
-    - cd $DEPLOY_TARGET
-    - mkdir -p release-$DRONE_BUILD_NUMBER
-    - cd release-$DRONE_BUILD_NUMBER
-    - tar xfz ../canijailbreak.com.tar.gz
-    - cd ..
-    - ln -nfs release-$DRONE_BUILD_NUMBER release
-    - rm ./canijailbreak.com.tar.gz
+    - cd /var/www/canijailbreak.com
+    - bash do-release.sh
     when:
       branch: master
 
-    cloudflare:
-      image: seejy/drone-cloudflare
-      secrets: [ CLOUDFLARE_EMAIL, CLOUDFLARE_APIKEY ]
-      domain: canijailbreak.com
-      when:
-        status: success
+  cloudflare:
+    image: seejy/drone-cloudflare
+    secrets: [ CLOUDFLARE_EMAIL, CLOUDFLARE_APIKEY ]
+    domain: canijailbreak.com
+    when:
+      branch: master
