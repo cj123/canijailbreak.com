@@ -1,47 +1,36 @@
-build:
-  image: golang:1.6
-  commands:
+workspace:
+  base: /go
+  path: src/github.com/cj123/canijailbreak.com
+
+pipeline:
+  build:
+    image: golang:1.9
+    commands:
     - go build -o jailbreak-generate .
     - ./jailbreak-generate -i ./jailbreaks.json -o ./static
     - cd static
     - tar czf ../canijailbreak.com.tar.gz *
 
-deploy:
-  rsync:
-    user: $$SERVER_USER
-    host: $$SERVER_HOST
-    port: $$SERVER_PORT
+  deploy:
+    secrets: [ DEPLOY_KEY, DEPLOY_HOSTS, DEPLOY_TARGET ]
+    image: drillster/drone-rsync
     source: ./canijailbreak.com.tar.gz
-    target: $$SERVER_TARGET
     delete: false
     recursive: true
-    when:
-      branch: master
-    commands:
-      - cd $$SERVER_TARGET
-      - mkdir -p release-$$BUILD_NUMBER
-      - cd release-$$BUILD_NUMBER
-      - tar xfz ../canijailbreak.com.tar.gz
-      - cd ..
-      - ln -nfs release-$$BUILD_NUMBER release
-      - rm ./canijailbreak.com.tar.gz
-  cloudflare:
-    image: seejy/drone-cloudflare
-    apikey: $$CLOUDFLARE_APIKEY
-    email: $$CLOUDFLARE_EMAIL
-    domain: $$CLOUDFLARE_DOMAIN
+    script:
+    - cd $DEPLOY_TARGET
+    - mkdir -p release-$DRONE_BUILD_NUMBER
+    - cd release-$DRONE_BUILD_NUMBER
+    - tar xfz ../canijailbreak.com.tar.gz
+    - cd ..
+    - ln -nfs release-$DRONE_BUILD_NUMBER release
+    - rm ./canijailbreak.com.tar.gz
     when:
       branch: master
 
-notify:
-  email:
-    from: $$EMAIL_FROM
-    host: $$EMAIL_HOST
-    username: $$EMAIL_USERNAME
-    password: $$EMAIL_PASSWORD
-    recipients:
-      - $$EMAIL_TO
-  prowlapp:
-    image: seejy/drone-prowlapp
-    apikey: $$PROWLAPP_APIKEY
-    provider_key: $$PROWLAPP_PROVIDER_KEY
+    cloudflare:
+      image: seejy/drone-cloudflare
+      secrets: [ CLOUDFLARE_EMAIL, CLOUDFLARE_APIKEY ]
+      domain: canijailbreak.com
+      when:
+        status: success
