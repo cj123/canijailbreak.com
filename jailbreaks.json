@@ -63,7 +63,7 @@
     {
       "jailbroken": true,
       "name": "Phœnix",
-      "version": "3",
+      "version": "4",
       "url": "https://phoenixpwn.com",
       "ios": {
         "start": "9.3.5"
