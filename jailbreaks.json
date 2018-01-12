@@ -50,8 +50,7 @@
       "version": "3",
       "url": "https://iabem97.github.io/saigon_website/",
       "ios": {
-        "start": "10.2.1",
-        "end": "10.2.1"
+        "start": "10.2.1"
       },
       "caveats": "64-bit devices only. Does not work on iPhone 7. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
