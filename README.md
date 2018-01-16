@@ -18,8 +18,8 @@ A few guidelines for contributing:
 1. **No beta jailbreaks**
 2. **No beta iOS versions**
 3. **Use one pull request per jailbreak addition** - this will allow us to easily approve/reject new additions on a one-by-one basis.
-4. Commit tags for new jailbreaks, in the form of `[jailbreak] <name> <version> for <ios versions>` are recommended :)
-5. Try to find the _simplest_ route to jailbreak, such as one click GUIs, that support _as many devices/ios versions as possible_.
+4. Commit tags for new jailbreaks, in the form of `[jailbreak] <name> <version> for <iOS versions>` are recommended :)
+5. Try to find the _simplest_ route to jailbreak, such as one click GUIs, that support _as many devices/iOS versions as possible_.
 
 
 ## installation
