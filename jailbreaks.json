@@ -303,7 +303,7 @@
       "jailbroken": true,
       "name": "redsn0w",
       "version": "0.9.15b3",
-      "url": "httsp://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.1"
       },
