@@ -94,7 +94,7 @@
       "jailbroken": true,
       "name": "Jailbreak.me",
       "version": "4.0",
-      "url": "http://jailbreak.me",
+      "url": "https://jailbreak.me",
       "ios": {
         "start": "9.1",
         "end": "9.3.4"
@@ -155,7 +155,7 @@
       "jailbroken": true,
       "name": "EtasonJB",
       "version": "RC2",
-      "url": "http://tihmstar.net/etasonjb/",
+      "url": "https://etasonjb.tihmstar.net",
       "ios": {
         "start": "8.4.1"
       },
@@ -199,7 +199,7 @@
       "jailbroken": true,
       "name": "PPJailbreak",
       "version": "1.0",
-      "url": "http://pro.25pp.com/ppghost_mac",
+      "url": "https://pro.25pp.com/ppghost_mac",
       "ios": {
         "start": "8.0",
         "end": "8.1.2"
@@ -289,7 +289,7 @@
       "jailbroken": true,
       "name": "redsn0w + absinthe2",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.1.1"
       },
@@ -303,7 +303,7 @@
       "jailbroken": true,
       "name": "redsn0w",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "httsp://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.1"
       },
@@ -317,7 +317,7 @@
       "jailbroken": true,
       "name": "redsn0w + corona",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.0.1"
       },
@@ -331,7 +331,7 @@
       "jailbroken": true,
       "name": "redsn0w + corona",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.0"
       },
@@ -345,7 +345,7 @@
       "jailbroken": true,
       "name": "redsn0w",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "4.3.4",
         "end": "4.3.5"
@@ -360,7 +360,7 @@
       "jailbroken": true,
       "name": "redsn0w",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "4.3",
         "end": "4.3.3"
@@ -375,7 +375,7 @@
       "jailbroken": true,
       "name": "redsn0w",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "4.2.9",
         "end": "4.2.10"
@@ -390,7 +390,7 @@
       "jailbroken": true,
       "name": "redsn0w",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "4.2.5",
         "end": "4.2.8"
@@ -405,7 +405,7 @@
       "jailbroken": true,
       "name": "redsn0w + limera1n",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "3.2.2",
         "end": "4.2.1"
@@ -434,7 +434,7 @@
       "jailbroken": true,
       "name": "redsn0w + blackra1n",
       "version": "0.9.15b3",
-      "url": "http://ipsw.me/iPhoneDev",
+      "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "3.0",
         "end": "3.1.1"
