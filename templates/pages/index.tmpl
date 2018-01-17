@@ -79,13 +79,16 @@
                             {{ end }}
                         </a>
                     </p>
+ 		   {{ with $jb.Warnings }}
+		    <p class="text-warning"><i class="fa fa-warning"></i>{{ $jb.Warnings }}</p>
+		   {{ end }}
 
                     {{ range $plat := $jb.Platforms }}
                         <i class="fa fa-{{ $plat | osIcon }}" title="{{ $plat }} compatible"></i>
                     {{ end }}
 
                     {{ with $jb.Caveats }}
-                        <p class="text-warning">
+                        <p class="text-black">
                             {{ . | trustHTML }}
                         </p>
                     {{ end }}
