@@ -1,461 +1,493 @@
 {
-  "jailbreaks": [
-    {
-      "jailbroken": false,
-      "name": "",
-      "version": "",
-      "url": "",
-      "ios": {
-        "start": "11.2",
-        "end": "11.2.2"
-      },
-      "caveats": "",
-      "platforms": []
+"jailbreaks":
+[
+  {
+    "jailbroken": false,
+    "name": "",
+    "version": "",
+    "url": "",
+    "ios": {
+      "start": "11.2",
+      "end": "11.2.2"
     },
-    {
-      "jailbroken": true,
-      "name": "LiberIOS",
-      "version": "",
-      "url": "http://newosxbook.com/liberios/",
-      "ios": {
-        "start": "11.0",
-        "end": "11.1.2"
-      },
-      "caveats": "This jailbreak has been released but is not stable yet (no Cydia). If you wish to use it, please stay on iOS 11.0 to iOS 11.1.2 and wait for <a href='https://reddit.com/r/jailbreak'>an update</a>.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "LiberIOS",
+    "version": "",
+    "url": "http://newosxbook.com/liberios/",
+    "ios": {
+      "start": "11.0",
+      "end": "11.1.2"
     },
-    {
-      "jailbroken": true,
-      "name": "H3lix",
-      "version": "RC5",
-      "url": "https://h3lix.tihmstar.net",
-      "ios": {
-        "start": "10.0",
-        "end": "10.3.3"
-      },
-      "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "No Cydia",
+    "caveats": "If you wish to use this jailbreak, please stay on iOS 11.0 to iOS 11.1.2 and wait for \u003ca href\u003d\u0027https://reddit.com/r/jailbreak\u0027\u003ean update\u003c/a\u003e."
+  },
+  {
+    "jailbroken": true,
+    "name": "H3lix",
+    "version": "RC5",
+    "url": "https://h3lix.tihmstar.net",
+    "ios": {
+      "start": "10.0",
+      "end": "10.3.3"
     },
-    {
-      "jailbroken": true,
-      "name": "Saigon",
-      "version": "3",
-      "url": "https://iabem97.github.io/saigon_website/",
-      "ios": {
-        "start": "10.2.1"
-      },
-      "caveats": "64-bit devices only. Does not work on iPhone 7. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "32-bit devices only. Semi-untethered only. ",
+    "caveats": "Follow the Cydia Impactor method of installing the Jailbreak."
+  },
+  {
+    "jailbroken": true,
+    "name": "Saigon",
+    "version": "3",
+    "url": "https://iabem97.github.io/saigon_website/",
+    "ios": {
+      "start": "10.2.1"
     },
-    {
-      "jailbroken": true,
-      "name": "Yalu (beta, unstable)",
-      "version": "beta7",
-      "url": "http://www.redmondpie.com/how-to-jailbreak-ios-10.2-with-yalu102-tutorial/",
-      "ios": {
-        "start": "10.0",
-        "end": "10.2"
-      },
-      "caveats": "Recommended for advanced users only. Semi-untethered. Does not work on iPhone 7. Follow RedmondPie tutorial",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "64-bit devices only. Semi-untethered only. ",
+    "caveats": "Does not work on iPhone 7. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak."
+  },
+  {
+    "jailbroken": true,
+    "name": "Yalu (beta, unstable)",
+    "version": "beta7",
+    "url": "http://www.redmondpie.com/how-to-jailbreak-ios-10.2-with-yalu102-tutorial/",
+    "ios": {
+      "start": "10.0",
+      "end": "10.2"
     },
-    {
-      "jailbroken": true,
-      "name": "Phœnix",
-      "version": "4",
-      "url": "https://phoenixpwn.com",
-      "ios": {
-        "start": "9.3.5"
-      },
-      "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "Semi-untethered only. Does not work on iPhone 7",
+    "caveats": "Recommended for advanced users only. Follow RedmondPie tutorial"
+  },
+  {
+    "jailbroken": true,
+    "name": "Phœnix",
+    "version": "4",
+    "url": "https://phoenixpwn.com",
+    "ios": {
+      "start": "9.3.5"
     },
-    {
-      "jailbroken": true,
-      "name": "Jailbreak.me",
-      "version": "4.0",
-      "url": "https://jailbreak.me",
-      "ios": {
-        "start": "9.1",
-        "end": "9.3.4"
-      },
-      "caveats": "32-bit devices only. Visit jailbreak.me in Safari on the iOS device itself.",
-      "platforms": [
-        "iOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "32-bit devices only. Semi-untethered only. ",
+    "caveats": "Follow the Cydia Impactor method of installing the Jailbreak."
+  },
+  {
+    "jailbroken": true,
+    "name": "Jailbreak.me",
+    "version": "4.0",
+    "url": "http://jailbreak.me",
+    "ios": {
+      "start": "9.1",
+      "end": "9.3.4"
     },
-    {
-      "jailbroken": true,
-      "name": "Home Depot",
-      "version": "RC3",
-      "url": "http://wall.supplies",
-      "ios": {
-        "start": "9.1",
-        "end": "9.3.4"
-      },
-      "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [
+      "iOS"
+    ],
+    "warnings": "32-bit devices only. ",
+    "caveats": "Visit jailbreak.me in Safari on the iOS device itself."
+  },
+  {
+    "jailbroken": true,
+    "name": "Home Depot",
+    "version": "RC3",
+    "url": "http://wall.supplies",
+    "ios": {
+      "start": "9.1",
+      "end": "9.3.4"
     },
-    {
-      "jailbroken": true,
-      "name": "Pangu",
-      "version": "1.1",
-      "url": "http://en.93.pangu.io/help.html",
-      "ios": {
-        "start": "9.2",
-        "end": "9.3.3"
-      },
-      "caveats": "64-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "32-bit devices only. Semi-untethered only. ",
+    "caveats": "Follow the Cydia Impactor method of installing the Jailbreak."
+  },
+  {
+    "jailbroken": true,
+    "name": "Pangu",
+    "version": "1.1",
+    "url": "http://en.93.pangu.io/help.html",
+    "ios": {
+      "start": "9.2",
+      "end": "9.3.3"
     },
-    {
-      "jailbroken": true,
-      "name": "Pangu",
-      "version": "1.3.2",
-      "url": "http://en.9.pangu.io",
-      "ios": {
-        "start": "9.0",
-        "end": "9.1"
-      },
-      "caveats": "iOS 9.1 Jailbreak is for 64-bit devices only.",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "64-bit devices only. Semi-untethered only. ",
+    "caveats": "Follow the Cydia Impactor method of installing the Jailbreak."
+  },
+  {
+    "jailbroken": true,
+    "name": "Pangu",
+    "version": "1.3.2",
+    "url": "http://en.9.pangu.io",
+    "ios": {
+      "start": "9.0",
+      "end": "9.1"
     },
-    {
-      "jailbroken": true,
-      "name": "EtasonJB",
-      "version": "RC2",
-      "url": "https://etasonjb.tihmstar.net",
-      "ios": {
-        "start": "8.4.1"
-      },
-      "caveats": "32-bit devices only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "64-bit devices only. ",
+    "caveats": "iOS 9.1 Jailbreak is for 64-bit devices only."
+  },
+  {
+    "jailbroken": true,
+    "name": "EtasonJB",
+    "version": "RC2",
+    "url": "http://tihmstar.net/etasonjb/",
+    "ios": {
+      "start": "8.4.1"
     },
-    {
-      "jailbroken": true,
-      "name": "TaiG",
-      "version": "2.4.3",
-      "url": "http://www.taig.com/en/",
-      "ios": {
-        "start": "8.1.3",
-        "end": "8.4"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "32-bit devices only. ",
+    "caveats": "Follow the Cydia Impactor method of installing the Jailbreak."
+  },
+  {
+    "jailbroken": true,
+    "name": "TaiG",
+    "version": "2.4.3",
+    "url": "http://www.taig.com/en/",
+    "ios": {
+      "start": "8.1.3",
+      "end": "8.4"
     },
-    {
-      "jailbroken": true,
-      "name": "TaiG",
-      "version": "1.2.1",
-      "url": "http://www.taig.com/en/",
-      "ios": {
-        "start": "8.0",
-        "end": "8.1.2"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "TaiG",
+    "version": "1.2.1",
+    "url": "http://www.taig.com/en/",
+    "ios": {
+      "start": "8.0",
+      "end": "8.1.2"
     },
-    {
-      "jailbroken": true,
-      "name": "PPJailbreak",
-      "version": "1.0",
-      "url": "https://pro.25pp.com/ppghost_mac",
-      "ios": {
-        "start": "8.0",
-        "end": "8.1.2"
-      },
-      "caveats": "No English version, follow a tutorial to use",
-      "platforms": [
-        "macOS"
-      ]
+    "platforms": [
+      "Windows"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "PPJailbreak",
+    "version": "1.0",
+    "url": "http://pro.25pp.com/ppghost_mac",
+    "ios": {
+      "start": "8.0",
+      "end": "8.1.2"
     },
-    {
-      "jailbroken": true,
-      "name": "Pangu",
-      "version": "1.2.1/1.0.0",
-      "url": "http://en.8.pangu.io/",
-      "ios": {
-        "start": "8.0",
-        "end": "8.1"
-      },
-      "caveats": "",
-      "platforms": [
-        "macOS",
-        "Windows"
-      ]
+    "platforms": [
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": "No English version, follow a tutorial to use"
+  },
+  {
+    "jailbroken": true,
+    "name": "Pangu",
+    "version": "1.2.1/1.0.0",
+    "url": "http://en.8.pangu.io/",
+    "ios": {
+      "start": "8.0",
+      "end": "8.1"
     },
-    {
-      "jailbroken": true,
-      "name": "Pangu",
-      "version": "1.2.1",
-      "url": "http://en.7.pangu.io/",
-      "ios": {
-        "start": "7.1",
-        "end": "7.1.2"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "Pangu",
+    "version": "1.2.1",
+    "url": "http://en.7.pangu.io/",
+    "ios": {
+      "start": "7.1",
+      "end": "7.1.2"
     },
-    {
-      "jailbroken": true,
-      "name": "evasi0n7",
-      "version": "1.0.7",
-      "url": "http://evasi0n.com/",
-      "ios": {
-        "start": "7.0",
-        "end": "7.0.6"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "evasi0n7",
+    "version": "1.0.7",
+    "url": "http://evasi0n.com/",
+    "ios": {
+      "start": "7.0",
+      "end": "7.0.6"
     },
-    {
-      "jailbroken": true,
-      "name": "p0sixspwn",
-      "version": "1.0.8",
-      "url": "http://p0sixspwn.com/",
-      "ios": {
-        "start": "6.1.3",
-        "end": "6.1.6"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "p0sixspwn",
+    "version": "1.0.8",
+    "url": "http://p0sixspwn.com/",
+    "ios": {
+      "start": "6.1.3",
+      "end": "6.1.6"
     },
-    {
-      "jailbroken": true,
-      "name": "evasi0n",
-      "version": "1.5.3",
-      "url": "http://evasi0n.com/iOS6",
-      "ios": {
-        "start": "6.0",
-        "end": "6.1.2"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "evasi0n",
+    "version": "1.5.3",
+    "url": "http://evasi0n.com/iOS6",
+    "ios": {
+      "start": "6.0",
+      "end": "6.1.2"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w + absinthe2",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "5.1.1"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w + absinthe2",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "5.1.1"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "5.1"
-      },
-      "caveats": "Tethered jailbreak. Not available for iPhone 4S, iPad 2 and iPad 3. Update to a later iOS version.",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "5.1"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w + corona",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "5.0.1"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "Tethered only. ",
+    "caveats": "Not available for iPhone 4S, iPad 2 and iPad 3. Update to a later iOS version."
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w + corona",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "5.0.1"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w + corona",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "5.0"
-      },
-      "caveats": "iPhone 4S only. Tethered for other devices.",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w + corona",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "5.0"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "4.3.4",
-        "end": "4.3.5"
-      },
-      "caveats": "Tethered jailbreak. Update to a newer iOS.",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": "iPhone 4S only. Tethered for other devices."
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "4.3.4",
+      "end": "4.3.5"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "4.3",
-        "end": "4.3.3"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "Tethered only. ",
+    "caveats": "Update to a newer iOS."
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "4.3",
+      "end": "4.3.3"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "4.2.9",
-        "end": "4.2.10"
-      },
-      "caveats": "iPhone 4 (CDMA) only. Tethered jailbreak. Update to a newer iOS.",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "4.2.9",
+      "end": "4.2.10"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "4.2.5",
-        "end": "4.2.8"
-      },
-      "caveats": "iPhone 4 (CDMA) only.",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "Tethered only. ",
+    "caveats": "iPhone 4 (CDMA) only. Update to a newer iOS."
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "4.2.5",
+      "end": "4.2.8"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w + limera1n",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "3.2.2",
-        "end": "4.2.1"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": "iPhone 4 (CDMA) only."
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w + limera1n",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "3.2.2",
+      "end": "4.2.1"
     },
-    {
-      "jailbroken": true,
-      "name": "JailbreakMe (Star)",
-      "version": "2.0",
-      "url": "http://jailbreakme.com/star",
-      "ios": {
-        "start": "3.1.2",
-        "end": "3.2.1"
-      },
-      "caveats": "Visit www.jailbreakme.com/star in Safari on the iOS device itself.",
-      "platforms": [
-        "iOS"
-      ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "JailbreakMe (Star)",
+    "version": "2.0",
+    "url": "http://jailbreakme.com/star",
+    "ios": {
+      "start": "3.1.2",
+      "end": "3.2.1"
     },
-    {
-      "jailbroken": true,
-      "name": "redsn0w + blackra1n",
-      "version": "0.9.15b3",
-      "url": "https://ipsw.me/iPhoneDev",
-      "ios": {
-        "start": "3.0",
-        "end": "3.1.1"
-      },
-      "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS"
-      ]
+    "platforms": [
+      "iOS"
+    ],
+    "warnings": "",
+    "caveats": "Visit www.jailbreakme.com/star in Safari on the iOS device itself."
+  },
+  {
+    "jailbroken": true,
+    "name": "redsn0w + blackra1n",
+    "version": "0.9.15b3",
+    "url": "http://ipsw.me/iPhoneDev",
+    "ios": {
+      "start": "3.0",
+      "end": "3.1.1"
     },
-    {
-      "jailbroken": true,
-      "name": "older jailbreak tools listed on The iPhone Wiki",
-      "version": "",
-      "url": "https://www.theiphonewiki.com/wiki/Jailbreak",
-      "ios": {
-        "start": "1.0",
-        "end": "3.0"
-      },
-      "caveats": "",
-      "platforms": []
-    }
-  ]
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "warnings": "",
+    "caveats": ""
+  },
+  {
+    "jailbroken": true,
+    "name": "older jailbreak tools listed on The iPhone Wiki",
+    "version": "",
+    "url": "https://www.theiphonewiki.com/wiki/Jailbreak",
+    "ios": {
+      "start": "1.0",
+      "end": "3.0"
+    },
+    "platforms": [],
+    "warnings": "",
+    "caveats": ""
+  }
+]
 }
