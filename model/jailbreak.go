@@ -13,7 +13,7 @@ type Jailbreak struct {
 
 	Platforms []string `json:"platforms"`
 	Caveats   string   `json:"caveats"`
-	Warnings string    `json:"warnings:`
+	Warnings string    `json:"warnings":`
 }
 
 type JailbreakJSON struct {
