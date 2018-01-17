@@ -48,3 +48,6 @@ div.footer {
     text-align: center;
     padding-bottom: 30px;
 }
+p {
+    margin-bottom: 0.3em;
+}
