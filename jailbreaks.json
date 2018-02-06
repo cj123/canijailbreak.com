@@ -154,7 +154,7 @@
     {
       "jailbroken": true,
       "name": "EtasonJB",
-      "version": "RC2",
+      "version": "RC5",
       "url": "https://etasonjb.tihmstar.net",
       "ios": {
         "start": "8.4.1"
