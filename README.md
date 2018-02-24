@@ -15,7 +15,7 @@ We welcome contributions to the code/design/data of the site! Currently, it's fa
 
 A few guidelines for contributing:
 
-1. **No beta jailbreaks**
+1. ~**No beta jailbreaks**~ - this rule seems more and more impossible to follow given the nature of most current jailbreaks. I ask that jailbreaks are at least reasonably stable before listed here - last thing Can I Jailbreak wishes to do is accidentally disable or break someone's device.
 2. **No beta iOS versions**
 3. **Use one pull request per jailbreak addition** - this will allow us to easily approve/reject new additions on a one-by-one basis.
 4. Commit tags for new jailbreaks, in the form of `[jailbreak] <name> <version> for <iOS versions>` are recommended :)
