@@ -15,13 +15,13 @@
     {
       "jailbroken": true,
       "name": "Electra",
-      "version": "beta11-3",
+      "version": "1.0.2",
       "url": "https://coolstar.org/electra/",
       "ios": {
         "start": "11.0",
         "end": "11.1.2"
       },
-      "caveats": "This jailbreak has been released but is not stable yet (no Cydia). If you wish to use it, please stay on iOS 11.0 to iOS 11.1.2 and wait for <a href='https://reddit.com/r/jailbreak'>an update</a>.",
+      "caveats": "This jailbreak has been released but is not stable yet (Cydia with Substrate Substitute). Semi-Untethered Only. If you wish to use it, please stay on iOS 11.0 to iOS 11.1.2 and follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
         "Windows",
         "macOS",
