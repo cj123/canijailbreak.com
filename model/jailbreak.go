@@ -3,7 +3,6 @@ package model
 type Jailbreak struct {
 	Jailbroken bool   `json:"jailbroken"`
 	Name       string `json:"name"`
-	Version    string `json:"version"`
 	URL        string `json:"url"`
 
 	Firmwares struct {
