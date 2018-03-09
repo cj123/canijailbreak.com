@@ -3,7 +3,6 @@
     {
       "jailbroken": false,
       "name": "",
-      "version": "",
       "url": "",
       "ios": {
         "start": "11.2",
@@ -15,7 +14,6 @@
     {
       "jailbroken": true,
       "name": "Electra",
-      "version": "1.0.2",
       "url": "https://coolstar.org/electra/",
       "ios": {
         "start": "11.0",
@@ -31,7 +29,6 @@
         {
       "jailbroken": true,
        "name": "g0blin (beta, unstable)",
-      "version": "RC2",
       "url": "https://g0blin.sticktron.net",
       "ios": {
         "start": "10.3",
@@ -47,7 +44,6 @@
     {
       "jailbroken": true,
       "name": "Meridian",
-      "version": "6",
       "url": "https://meridian.sparkes.zone/",
       "ios": {
         "start": "10.0",
@@ -63,7 +59,6 @@
     {
       "jailbroken": true,
       "name": "H3lix",
-      "version": "RC5",
       "url": "https://h3lix.tihmstar.net",
       "ios": {
         "start": "10.0",
@@ -79,7 +74,6 @@
     {
       "jailbroken": true,
       "name": "Yalu (beta, unstable)",
-      "version": "beta7",
       "url": "http://www.redmondpie.com/how-to-jailbreak-ios-10.2-with-yalu102-tutorial/",
       "ios": {
         "start": "10.0",
@@ -95,7 +89,6 @@
     {
       "jailbroken": true,
       "name": "Extra_Recipe+YaluX (beta, unstable)",
-      "version": "beta4",
       "url": "https://yalu.qwertyoruiop.com/",
       "ios": {
         "start": "10.0",
@@ -111,7 +104,6 @@
     {
       "jailbroken": true,
       "name": "Phœnix",
-      "version": "4",
       "url": "https://phoenixpwn.com",
       "ios": {
         "start": "9.3.5"
@@ -126,7 +118,6 @@
     {
       "jailbroken": true,
       "name": "Jailbreak.me",
-      "version": "4.0",
       "url": "https://jailbreak.me",
       "ios": {
         "start": "9.1",
@@ -140,7 +131,6 @@
     {
       "jailbroken": true,
       "name": "Home Depot",
-      "version": "RC3",
       "url": "http://wall.supplies",
       "ios": {
         "start": "9.1",
@@ -156,7 +146,6 @@
     {
       "jailbroken": true,
       "name": "Pangu",
-      "version": "1.1",
       "url": "http://en.93.pangu.io/help.html",
       "ios": {
         "start": "9.2",
@@ -172,7 +161,6 @@
     {
       "jailbroken": true,
       "name": "Pangu",
-      "version": "1.3.2",
       "url": "http://en.9.pangu.io",
       "ios": {
         "start": "9.0",
@@ -187,7 +175,6 @@
     {
       "jailbroken": true,
       "name": "EtasonJB",
-      "version": "RC5",
       "url": "https://etasonjb.tihmstar.net/",
       "ios": {
         "start": "8.4.1"
@@ -202,7 +189,6 @@
     {
       "jailbroken": true,
       "name": "TaiG",
-      "version": "2.4.5",
       "url": "http://www.taig.com/en/",
       "ios": {
         "start": "8.1.3",
@@ -217,7 +203,6 @@
     {
       "jailbroken": true,
       "name": "TaiG",
-      "version": "1.2.1",
       "url": "http://www.taig.com/en/",
       "ios": {
         "start": "8.0",
@@ -231,7 +216,6 @@
     {
       "jailbroken": true,
       "name": "PPJailbreak",
-      "version": "1.0",
       "url": "https://pro.25pp.com/ppghost_mac",
       "ios": {
         "start": "8.0",
@@ -245,7 +229,6 @@
     {
       "jailbroken": true,
       "name": "Pangu",
-      "version": "1.2.1/1.0.0",
       "url": "http://en.8.pangu.io/",
       "ios": {
         "start": "8.0",
@@ -260,7 +243,6 @@
     {
       "jailbroken": true,
       "name": "Pangu",
-      "version": "1.2.1",
       "url": "http://en.7.pangu.io/",
       "ios": {
         "start": "7.1",
@@ -275,7 +257,6 @@
     {
       "jailbroken": true,
       "name": "evasi0n7",
-      "version": "1.0.7",
       "url": "http://evasi0n.com/",
       "ios": {
         "start": "7.0",
@@ -290,7 +271,6 @@
     {
       "jailbroken": true,
       "name": "p0sixspwn",
-      "version": "1.0.8",
       "url": "https://ih8sn0w.com/p0sixspwn.html",
       "ios": {
         "start": "6.1.3",
@@ -305,7 +285,6 @@
     {
       "jailbroken": true,
       "name": "evasi0n",
-      "version": "1.5.3",
       "url": "http://evasi0n.com/iOS6",
       "ios": {
         "start": "6.0",
@@ -321,7 +300,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w + absinthe2",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.1.1"
@@ -335,7 +313,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.1"
@@ -349,7 +326,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w + corona",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.0.1"
@@ -363,7 +339,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w + corona",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "5.0"
@@ -377,7 +352,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "4.3.4",
@@ -392,7 +366,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "4.3",
@@ -407,7 +380,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "4.2.9",
@@ -422,7 +394,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "4.2.5",
@@ -437,7 +408,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w + limera1n",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "3.2.2",
@@ -452,7 +422,6 @@
     {
       "jailbroken": true,
       "name": "JailbreakMe (Star)",
-      "version": "2.0",
       "url": "http://jailbreakme.com/star",
       "ios": {
         "start": "3.1.2",
@@ -466,7 +435,6 @@
     {
       "jailbroken": true,
       "name": "redsn0w + blackra1n",
-      "version": "0.9.15b3",
       "url": "https://ipsw.me/iPhoneDev",
       "ios": {
         "start": "3.0",
@@ -481,7 +449,6 @@
     {
       "jailbroken": true,
       "name": "older jailbreak tools listed on The iPhone Wiki",
-      "version": "",
       "url": "https://www.theiphonewiki.com/wiki/Jailbreak",
       "ios": {
         "start": "1.0",

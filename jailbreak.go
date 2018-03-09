@@ -17,7 +17,7 @@ func validate(j *model.JailbreakJSON) error {
 			continue
 		}
 
-		log.Printf("Testing url: %s for jailbreak %s %s\n", jailbreak.URL, jailbreak.Name, jailbreak.Version)
+		log.Printf("Testing url: %s for jailbreak %s\n", jailbreak.URL, jailbreak.Name)
 
 		res, err := http.Get(jailbreak.URL)
 

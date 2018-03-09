@@ -15,7 +15,7 @@
             <div class="text-success">
                 <i class="fa fa-check"></i>
                 Jailbreak using
-                <a href="{{.MostRecent.URL}}">{{ .MostRecent.Name }}{{ with .MostRecent.Version }} version {{ .MostRecent.Version }}{{ end }}</a>.
+                <a href="{{.MostRecent.URL}}">{{ .MostRecent.Name }}</a>.
             </div>
 
             {{ with .MostRecent.Caveats }}
@@ -74,9 +74,6 @@
                         Jailbreak using
                         <a href="{{ $jb.URL }}">
                             {{ $jb.Name }}
-                            {{ with $jb.Version }}
-                                version {{ . }}
-                            {{ end }}
                         </a>
                     </p>
 
