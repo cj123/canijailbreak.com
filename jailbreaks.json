@@ -47,13 +47,13 @@
     {
       "jailbroken": true,
       "name": "Meridian",
-      "version": "6",
+      "version": "Beta 6",
       "url": "https://meridian.sparkes.zone/",
       "ios": {
         "start": "10.0",
         "end": "10.3.3"
       },
-      "caveats": "This jailbreak has been released but does not have a fully functioning version of Cydia (no substrate). Please wait for an update.",
+      "caveats": "This jailbreak has been released but does not have a fully functioning version of Cydia (no substrate). Update expected soon with functioning version of Cydia",
       "platforms": [
         "Windows",
         "macOS",
