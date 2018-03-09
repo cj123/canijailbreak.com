@@ -26,21 +26,6 @@
         "Linux"
       ]
     },
-        {
-      "jailbroken": true,
-       "name": "g0blin (beta, unstable)",
-      "url": "https://g0blin.sticktron.net",
-      "ios": {
-        "start": "10.3",
-        "end": "10.3.3"
-      },
-      "caveats": "64-bit devices only. Does not work on iPhone 7. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
-    },
     {
       "jailbroken": true,
       "name": "Meridian",
