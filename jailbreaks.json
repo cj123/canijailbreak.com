@@ -136,7 +136,7 @@
         "start": "9.1",
         "end": "9.3.4"
       },
-      "caveats": "32-bit devices only. Semi-untethered only, but can be untethered by installing UntetherHomeDepot via tihmstar's Cydia repo. Follow the Cydia Impactor method of installing the Jailbreak.",
+      "caveats": "32-bit devices only. Semi-untethered, but can be untethered by installing UntetherHomeDepot via tihmstar's Cydia repo. Follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
         "Windows",
         "macOS",
