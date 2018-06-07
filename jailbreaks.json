@@ -83,21 +83,6 @@
     },
     {
       "jailbroken": true,
-      "name": "Yalu (beta, unstable)",
-      "url": "http://www.redmondpie.com/how-to-jailbreak-ios-10.2-with-yalu102-tutorial/",
-      "ios": {
-        "start": "10.0",
-        "end": "10.2"
-      },
-      "caveats": "Recommended for advanced users only. Semi-untethered. Does not work on iPhone 7. Follow RedmondPie tutorial",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
-    },
-    {
-      "jailbroken": true,
       "name": "Extra_Recipe+YaluX (beta, unstable)",
       "url": "https://yalu.qwertyoruiop.com/",
       "ios": {
