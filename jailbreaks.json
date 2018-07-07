@@ -17,7 +17,7 @@
       "url": "https://coolstar.org/electra/",
       "ios": {
         "start": "11.2",
-        "end": "11.3.1",
+        "end": "11.3.1"
       },
       "caveats": "Be sure to read 'Important Information' on the Electra website before installing",
       "platforms": []
