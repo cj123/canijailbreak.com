@@ -8,11 +8,7 @@
         "start": "11.4"
       },
       "caveats": "",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
+      "platforms": []
     },
     {
       "jailbroken": true,
@@ -23,7 +19,11 @@
         "end": "11.3.1"
       },
       "caveats": "Be sure to read 'Important Information' on the Electra website before installing",
-      "platforms": []
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
     },
     {
       "jailbroken": true,
