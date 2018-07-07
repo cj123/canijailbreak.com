@@ -9,7 +9,11 @@
         "end": "11.4"
       },
       "caveats": "",
-      "platforms": []
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
     },
     {
       "jailbroken": true,
