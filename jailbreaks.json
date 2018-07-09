@@ -5,7 +5,8 @@
       "name": "",
       "url": "",
       "ios": {
-        "start": "11.4"
+        "start": "11.4",
+        "end": "11.4.1"
       },
       "caveats": "",
       "platforms": []
