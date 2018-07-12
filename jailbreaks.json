@@ -19,7 +19,7 @@
         "start": "11.2",
         "end": "11.3.1"
       },
-      "caveats": "Be sure to read 'Important Information' on the Electra website before installing",
+      "caveats": "Semi-Untethered Only. Be sure to read 'Important Information' on the Electra website before installing",
       "platforms": [
         "Windows",
         "macOS",
