@@ -56,21 +56,6 @@
         "Linux"
       ]
     },
-        {
-      "jailbroken": true,
-      "name": "doubleH3lix",
-      "url": "https://doubleh3lix.tihmstar.net",
-      "ios": {
-        "start": "10.0",
-        "end": "10.3.3"
-      },
-      "caveats": "64-bit devices with a headphone jack supported. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
-    },
     {
       "jailbroken": true,
       "name": "H3lix",
