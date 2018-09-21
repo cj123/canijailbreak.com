@@ -34,7 +34,7 @@
         "start": "11.0",
         "end": "11.1.2"
       },
-      "caveats": "This jailbreak has been released but is not stable yet (Cydia with Substrate Substitute). Semi-Untethered Only. If you wish to use it, please stay on iOS 11.0 to iOS 11.1.2 and follow the Cydia Impactor method of installing the Jailbreak.",
+      "caveats": "Semi-Untethered Only. Be sure to read 'Important Information' on the Electra website before installing",
       "platforms": [
         "Windows",
         "macOS",
