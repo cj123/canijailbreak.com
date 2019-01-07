@@ -73,21 +73,6 @@
     },
     {
       "jailbroken": true,
-      "name": "Extra_Recipe+YaluX (beta, unstable)",
-      "url": "https://yalu.qwertyoruiop.com/",
-      "ios": {
-        "start": "10.0",
-        "end": "10.1.1"
-      },
-      "caveats": "Recommended for advanced users only. Semi-untethered. Works on the iPhone 7/Plus only.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
-    },
-    {
-      "jailbroken": true,
       "name": "Phœnix",
       "url": "https://phoenixpwn.com",
       "ios": {
