@@ -34,7 +34,7 @@
         "start": "10.0",
         "end": "10.3.3"
       },
-      "caveats": "This jailbreak has been released but does not have a fully functioning version of Cydia (no substrate). Please wait for an update.",
+      "caveats": " Semi-Untethered Only. Follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
         "Windows",
         "macOS",
