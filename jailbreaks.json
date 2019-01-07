@@ -6,35 +6,20 @@
       "url": "",
       "ios": {
         "start": "11.4",
-        "end": "11.4.1"
+        "end": "12.1.2"
       },
       "caveats": "",
       "platforms": []
     },
     {
       "jailbroken": true,
-      "name": "Electra",
-      "url": "https://coolstar.org/electra/",
-      "ios": {
-        "start": "11.2",
-        "end": "11.3.1"
-      },
-      "caveats": "Semi-Untethered Only. Be sure to read 'Important Information' on the Electra website before installing",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
-    },
-    {
-      "jailbroken": true,
-      "name": "Electra",
-      "url": "https://coolstar.org/electra1112/",
+      "name": "unc0ver",
+      "url": "http://www.iphonehacks.com/2018/10/how-jailbreak-ios-11-unc0ver-jailbreak.html",
       "ios": {
         "start": "11.0",
-        "end": "11.1.2"
+        "end": "11.3.1"
       },
-      "caveats": "This jailbreak has been released but is not stable yet (Cydia with Substrate Substitute). Semi-Untethered Only. If you wish to use it, please stay on iOS 11.0 to iOS 11.1.2 and follow the Cydia Impactor method of installing the Jailbreak.",
+      "caveats": "",
       "platforms": [
         "Windows",
         "macOS",
@@ -49,7 +34,7 @@
         "start": "10.0",
         "end": "10.3.3"
       },
-      "caveats": "This jailbreak has been released but does not have a fully functioning version of Cydia (no substrate). Please wait for an update.",
+      "caveats": " Semi-Untethered Only. Follow the Cydia Impactor method of installing the Jailbreak.",
       "platforms": [
         "Windows",
         "macOS",
@@ -80,21 +65,6 @@
         "end": "10.3.3"
       },
       "caveats": "32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method of installing the Jailbreak.",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
-    },
-    {
-      "jailbroken": true,
-      "name": "Yalu (beta, unstable)",
-      "url": "http://www.redmondpie.com/how-to-jailbreak-ios-10.2-with-yalu102-tutorial/",
-      "ios": {
-        "start": "10.0",
-        "end": "10.2"
-      },
-      "caveats": "Recommended for advanced users only. Semi-untethered. Does not work on iPhone 7. Follow RedmondPie tutorial",
       "platforms": [
         "Windows",
         "macOS",
