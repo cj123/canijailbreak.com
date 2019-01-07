@@ -13,28 +13,13 @@
     },
     {
       "jailbroken": true,
-      "name": "Electra",
-      "url": "https://coolstar.org/electra/",
-      "ios": {
-        "start": "11.2",
-        "end": "11.3.1"
-      },
-      "caveats": "Semi-Untethered Only. Be sure to read 'Important Information' on the Electra website before installing",
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ]
-    },
-    {
-      "jailbroken": true,
-      "name": "Electra",
-      "url": "https://coolstar.org/electra1112/",
+      "name": "unc0ver",
+      "url": "http://www.iphonehacks.com/2018/10/how-jailbreak-ios-11-unc0ver-jailbreak.html",
       "ios": {
         "start": "11.0",
-        "end": "11.1.2"
+        "end": "11.3.1"
       },
-      "caveats": "This jailbreak has been released but is not stable yet (Cydia with Substrate Substitute). Semi-Untethered Only. If you wish to use it, please stay on iOS 11.0 to iOS 11.1.2 and follow the Cydia Impactor method of installing the Jailbreak.",
+      "caveats": "",
       "platforms": [
         "Windows",
         "macOS",
