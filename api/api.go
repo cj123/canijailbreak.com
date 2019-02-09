@@ -14,8 +14,8 @@ type JailbreakClient struct {
 	Base string
 }
 
-func (c *JailbreakClient) GetJailbreaks() (*model.JailbreakJSON, error) {
-	var jbs *model.JailbreakJSON
+func (c *JailbreakClient) GetJailbreaks() (*model.Jailbreaks, error) {
+	var jbs *model.Jailbreaks
 
 	resp, err := c.MakeRequest(CanIJailbreakURL+"jailbreaks.json", &jbs, nil)
 

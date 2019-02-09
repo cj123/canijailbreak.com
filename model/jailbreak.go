@@ -14,6 +14,6 @@ type Jailbreak struct {
 	Caveats   string   `json:"caveats"`
 }
 
-type JailbreakJSON struct {
+type Jailbreaks struct {
 	Jailbreaks []*Jailbreak `json:"jailbreaks"`
 }

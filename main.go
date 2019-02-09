@@ -16,7 +16,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&inFile, "i", "./jailbreaks.json", "the jailbreaks data file")
+	flag.StringVar(&inFile, "i", "./jailbreaks.yml", "the jailbreaks data file")
 	flag.StringVar(&outDir, "o", "./static", "the output directory. is created if it doesn't exist")
 	flag.BoolVar(&skipChecks, "s", false, "skip URL checks")
 	flag.Parse()
@@ -64,8 +64,8 @@ func main() {
 
 		err := renderTemplate(
 			buf,
-			page.toTmpl(page.template),
-			page.toTmpl(page.base),
+			page.toHTML(page.template),
+			page.toHTML(page.base),
 			page.data,
 		)
 

@@ -16,10 +16,6 @@ type page struct {
 	data     map[string]interface{}
 }
 
-func (p page) toTmpl(t string) string {
-	return t + ".tmpl"
-}
-
 func (p page) toHTML(t string) string {
 	return t + ".html"
 }
@@ -31,13 +27,13 @@ func initTemplates() error {
 
 	templatesDir := "./templates/"
 
-	layouts, err := filepath.Glob(templatesDir + "layouts/*.tmpl")
+	layouts, err := filepath.Glob(templatesDir + "layouts/*.html")
 
 	if err != nil {
 		return err
 	}
 
-	pages, err := filepath.Glob(templatesDir + "pages/*.tmpl")
+	pages, err := filepath.Glob(templatesDir + "pages/*.html")
 
 	if err != nil {
 		return err
