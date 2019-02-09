@@ -9,24 +9,11 @@ jailbreaks:
   caveats: ""
 
 - jailbroken: true
-  name: Electra
-  url: https://coolstar.org/electra/
-  firmwares:
-    start: 11.4
-    end: 11.4.1
-  platforms:
-  - Windows
-  - macOS
-  - Linux
-  caveats: A7 and A8 on 11.2-11.4.1 devices may not be able to jailbreak with voucher_swap.
-    If voucher_swap and threadm1ll don't work, use v1.1.0
-
-- jailbroken: true
   name: unc0ver
-  url: http://www.iphonehacks.com/2018/10/how-jailbreak-ios-11-unc0ver-jailbreak.html
+  url: https://www.idownloadblog.com/2018/10/14/how-to-jailbreak-ios-11-0-11-4-beta-3-with-unc0ver/
   firmwares:
     start: 11.0
-    end: 11.3.1
+    end: 11.4.1
   platforms:
   - Windows
   - macOS
