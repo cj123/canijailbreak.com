@@ -1,13 +1,13 @@
 language: go
 
 go:
-  - tip
-  - 1.6
+  - 1.11
 
 install:
+  - export GO111MODULE=on
   - go get ./...
   - go test -cover ./...
   - go build -o canijailbreak .
 
 script:
-  ./canijailbreak -i jailbreaks.json -o static/
+  ./canijailbreak -i jailbreaks.yml -o static/

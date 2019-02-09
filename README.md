@@ -41,6 +41,6 @@ This will generate output, by default into `./static`.
 
 ## adding jailbreaks
 
-look in the file `./jailbreaks.json` for a layout
+look in the file `./jailbreaks.yml` for a layout
 
 then run the `./canijailbreak.com` util again
