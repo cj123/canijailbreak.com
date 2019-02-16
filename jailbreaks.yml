@@ -1,12 +1,16 @@
 jailbreaks:
-- jailbroken: false
-  name: ""
-  url: ""
+- jailbroken: true
+  name: "unc0ver "
+  url: "https://github.com/pwn20wndstuff/Undecimus/releases/tag/v3.0.0%25b28"
   firmwares:
     start: 12
-    end: 12.1.4
-  platforms: []
-  caveats: ""
+    end: 12.1.2
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: Semi-Untethered Only. Follow the Cydia Impactor method of installing
+    the Jailbreak.
 
 - jailbroken: true
   name: unc0ver
