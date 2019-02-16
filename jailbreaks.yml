@@ -9,8 +9,8 @@ jailbreaks:
 caveats: ""
 
 - jailbroken: true
-  name: "unc0ver "
-  url: "https://github.com/pwn20wndstuff/Undecimus/releases/tag/v3.0.0%25b28"
+  name: unc0ver
+  url: https://github.com/pwn20wndstuff/Undecimus/releases/tag/v3.0.0%25b28
   firmwares:
     start: 12
     end: 12.1.2
