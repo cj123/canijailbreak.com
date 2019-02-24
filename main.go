@@ -26,7 +26,7 @@ func main() {
 	jbs, err := getJailbreaks(inFile)
 
 	if err != nil {
-		log.Fatalln("Unable to open jailbreaks file at: " + inFile)
+		log.Fatalf("Unable to open jailbreaks file at: %s error: %s", inFile, err)
 	}
 
 	if !skipChecks {
