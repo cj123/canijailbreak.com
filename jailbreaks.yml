@@ -18,7 +18,7 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: ""
+  caveats: "Currently A12 devices are not yet supported, please wait for an update."
   
 - jailbroken: true
   name: unc0ver
