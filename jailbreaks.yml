@@ -18,8 +18,8 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: Currently A12 devices like iPhone XR, XS and XS Max are not yet
-  supported, please wait for an update.
+  caveats: A8X to A11 devices only. Currently A12 devices like iPhone XR, XS and
+  XS Max are not yet supported, please wait for an update.
   
 - jailbroken: true
   name: unc0ver
