@@ -19,8 +19,8 @@ jailbreaks:
   - macOS
   - Linux
   caveats: > 
-    Currently A12 devices like iPhone XR, XS and XS Max are
-    not yet supported, please wait for an update.
+    Currently A12 devices like iPhone XR, XS and XS Max
+    are not yet supported, please wait for an update.
   
 - jailbroken: true
   name: unc0ver
