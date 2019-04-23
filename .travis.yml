@@ -1,7 +1,7 @@
 language: go
 
 go:
-  - 1.11
+  - 1.12
 
 install:
   - export GO111MODULE=on
@@ -11,3 +11,12 @@ install:
 
 script:
   ./canijailbreak -i jailbreaks.yml -o static/
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: static
+  keep_history: true
+  on:
+    branch: master
