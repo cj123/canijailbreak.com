@@ -18,5 +18,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: static
   keep_history: true
+  fqdn: canijailbreak.com
   on:
     branch: master
