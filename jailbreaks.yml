@@ -9,8 +9,8 @@ jailbreaks:
   caveats: ""
 
 - jailbroken: true
-  name: unc0ver
-  url: https://www.redmondpie.com/jailbreak-ios-12-12.1.2-12.1.2-beta-3-with-unc0ver-and-install-cydia-heres-how-tutorial/
+  name: Chimera
+  url: https://chimera.sh/
   firmwares:
     start: 12.0
     end: 12.1.2
@@ -19,8 +19,8 @@ jailbreaks:
   - macOS
   - Linux
   caveats: > 
-    Currently A12 devices like iPhone XR, XS and XS Max
-    are not yet supported, please wait for an update.
+    Semi-Untethered Only. Follow the Cydia Impactor method of installing
+    the Jailbreak.
   
 - jailbroken: true
   name: unc0ver
