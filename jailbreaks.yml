@@ -120,7 +120,7 @@ jailbreaks:
   url: https://phoenixpwn.com
   firmwares:
     start: 9.3.5
-    end: ""
+    end: 9.3.6
   platforms:
   - Windows
   - macOS
