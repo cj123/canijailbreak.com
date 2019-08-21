@@ -54,7 +54,7 @@ jailbreaks:
   url: https://www.redmondpie.com/jailbreak-ios-12-12.1.2-12.1.2-beta-3-with-unc0ver-and-install-cydia-heres-how-tutorial/
   firmwares:
     start: 12.0
-    end: 12.1.2
+    end: 12.2
   platforms:
   - Windows
   - macOS
@@ -94,7 +94,7 @@ jailbreaks:
   url: https://doubleh3lix.tihmstar.net
   firmwares:
     start: 10.0
-    end: 10.3.3
+    end: 10.3.4
   platforms:
   - Windows
   - macOS
