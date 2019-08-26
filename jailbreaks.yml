@@ -1,4 +1,12 @@
 jailbreaks:
+- jailbroken: false
+  name: ""
+  url: ""
+  firmwares:
+    start: 12.4.1
+  platforms: []
+  caveats: ""
+
 - jailbroken: true
   name: unc0ver
   url: https://github.com/pwn20wndstuff/Undecimus/releases
