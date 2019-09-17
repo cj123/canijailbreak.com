@@ -62,7 +62,7 @@ jailbreaks:
   url: https://www.redmondpie.com/jailbreak-ios-12-12.1.2-12.1.2-beta-3-with-unc0ver-and-install-cydia-heres-how-tutorial/
   firmwares:
     start: 12.0
-    end: 12.1.2
+    end: 12.2
   platforms:
   - Windows
   - macOS
