@@ -116,7 +116,7 @@ jailbreaks:
   url: https://h3lix.tihmstar.net
   firmwares:
     start: 10.0
-    end: 10.3.3
+    end: 10.3.4
   platforms:
   - Windows
   - macOS
