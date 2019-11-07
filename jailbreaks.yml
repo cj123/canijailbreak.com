@@ -4,7 +4,7 @@ jailbreaks:
   url: ""
   firmwares:
     start: 12.4.1
-    end: 13.2
+    end: 13.2.2
   platforms: []
   caveats: ""
 
