@@ -1,12 +1,13 @@
 jailbreaks:
-- jailbroken: false
-  name: ""
-  url: ""
+- jailbroken: true
+  name: checkra1n
+  url: https://checkra.in/
   firmwares:
-    start: 12.4.1
+    start: 12.3
     end: 13.2.2
-  platforms: []
-  caveats: ""
+  platforms:
+  - macOS
+  caveats: Currently in beta. Supports devices iPhone 5s to iPhone X. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
 
 - jailbroken: true
   name: unc0ver
