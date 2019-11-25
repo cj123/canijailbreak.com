@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://ipsw.me/assets/images/brand/racer.png"><br>
+  <img src="https://ipsw.me/assets/images/brand/penguin.png"><br>
   canijailbreak.com
 </h1>
 
