@@ -22,15 +22,6 @@ jailbreaks:
     Semi-Untethered Only. Follow the Cydia Impactor method of installing
     the Jailbreak.
 
-- jailbroken: false
-  name: ""
-  url: ""
-  firmwares:
-    start: 12.3
-    end: 12.3.2
-  platforms: []
-  caveats: ""
-
 - jailbroken: true
   name: Chimera
   url: https://chimera.sh/
