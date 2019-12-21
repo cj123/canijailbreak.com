@@ -11,25 +11,16 @@ jailbreaks:
 
 - jailbroken: true
   name: unc0ver
-  url: https://github.com/pwn20wndstuff/Undecimus/releases
+  url: https://unc0ver.dev/
   firmwares:
     start: 12.4
   platforms:
   - Windows
   - macOS
   - Linux
-  caveats: >    
+  caveats: >
     Semi-Untethered Only. Follow the Cydia Impactor method of installing
     the Jailbreak.
-
-- jailbroken: false
-  name: ""
-  url: ""
-  firmwares:
-    start: 12.3
-    end: 12.3.2
-  platforms: []
-  caveats: ""
 
 - jailbroken: true
   name: Chimera
@@ -41,10 +32,10 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: > 
+  caveats: >
     Semi-Untethered Only. Follow the Cydia Impactor method of installing
     the Jailbreak. A12 devices are not supported. Sileo installed by default (not Cydia).
-    
+
 - jailbroken: true
   name: Chimera
   url: https://chimera.sh/
@@ -55,36 +46,23 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: > 
+  caveats: >
     Semi-Untethered Only. Follow the Cydia Impactor method of installing
     the Jailbreak. Sileo installed by default (not Cydia).
-  
+
 - jailbroken: true
   name: unc0ver
-  url: https://www.redmondpie.com/jailbreak-ios-12-12.1.2-12.1.2-beta-3-with-unc0ver-and-install-cydia-heres-how-tutorial/
+  url: https://unc0ver.dev/
   firmwares:
-    start: 12.0
+    start: 11.0
     end: 12.2
   platforms:
   - Windows
   - macOS
   - Linux
-  caveats: > 
+  caveats: >
     Semi-Untethered Only. Follow the Cydia Impactor method of installing
     the Jailbreak.
-  
-  
-- jailbroken: true
-  name: unc0ver
-  url: https://www.idownloadblog.com/2018/10/14/how-to-jailbreak-ios-11-0-11-4-beta-3-with-unc0ver/
-  firmwares:
-    start: 11.0
-    end: 11.4.1
-  platforms:
-  - Windows
-  - macOS
-  - Linux
-  caveats: ""
 
 - jailbroken: true
   name: Meridian
@@ -96,7 +74,8 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: Semi-Untethered Only. Follow the Cydia Impactor method of installing
+  caveats: >
+    Semi-Untethered Only. Follow the Cydia Impactor method of installing
     the Jailbreak.
 
 - jailbroken: true
