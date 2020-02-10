@@ -4,9 +4,10 @@ jailbreaks:
   url: https://checkra.in/
   firmwares:
     start: 12.3
-    end: 13.3
+    end: 13.3.1
   platforms:
   - macOS
+  - Linux
   caveats: Currently in beta. Supports devices iPhone 5s to iPhone X. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
 
 - jailbroken: true
