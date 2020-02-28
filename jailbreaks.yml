@@ -9,18 +9,31 @@ jailbreaks:
   - macOS
   - Linux
   caveats: Currently in beta. Supports devices iPhone 5s to iPhone X. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
-
+  
+- jailbroken: true
+  name: unc0ver
+  url: https://unc0ver.dev/
+  firmwares:
+    start: 13.0
+    end: 13.3
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: Semi-Untethered Only. Follow the Cydia Impactor method of installing
+    the Jailbreak. 
 - jailbroken: true
   name: unc0ver
   url: https://unc0ver.dev/
   firmwares:
     start: 12.4
+    end: 12.4.1
   platforms:
   - Windows
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. Follow the Cydia Impactor method of installing
+    Semi-Untethered Only. 12.4.1 is only supported on A12 iPhones. Follow the Cydia Impactor method of installing
     the Jailbreak.
 
 - jailbroken: true
