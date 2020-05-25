@@ -4,7 +4,7 @@ jailbreaks:
   url: https://checkra.in/
   firmwares:
     start: 12.3
-    end: 13.4.1
+    end: 13.5
   platforms:
   - macOS
   - Linux
@@ -14,7 +14,8 @@ jailbreaks:
   name: unc0ver
   url: https://unc0ver.dev/
   firmwares:
-    start: 12.4
+    start: 11.0
+    end: 13.5
   platforms:
   - Windows
   - macOS
@@ -50,20 +51,6 @@ jailbreaks:
   caveats: >
     Semi-Untethered Only. Follow the Cydia Impactor method of installing
     the Jailbreak. Sileo installed by default (not Cydia).
-
-- jailbroken: true
-  name: unc0ver
-  url: https://unc0ver.dev/
-  firmwares:
-    start: 11.0
-    end: 12.2
-  platforms:
-  - Windows
-  - macOS
-  - Linux
-  caveats: >
-    Semi-Untethered Only. Follow the Cydia Impactor method of installing
-    the Jailbreak.
 
 - jailbroken: true
   name: Meridian
