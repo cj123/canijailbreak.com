@@ -4,7 +4,7 @@ jailbreaks:
   url: https://checkra.in/
   firmwares:
     start: 12.3
-    end: 13.5
+    end: 14.2
   platforms:
   - macOS
   - Linux
