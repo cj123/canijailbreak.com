@@ -11,7 +11,7 @@ jailbreaks:
   caveats: Currently in beta. 14.0+ only supports iPhone 6S/SE and other A9 devices via Semi-tethered. Windows version coming soon, some device support not fully tested yet.
 
 - jailbroken: true
-  name: unc0ver
+  name: checkra1n
   url: https://checkra.in/
   firmwares:
     start: 14.0
