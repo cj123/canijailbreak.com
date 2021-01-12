@@ -4,11 +4,24 @@ jailbreaks:
   url: https://checkra.in/
   firmwares:
     start: 12.3
-    end: 13.5
+    end: 14.3
   platforms:
   - macOS
   - Linux
-  caveats: Currently in beta. Supports devices iPhone 5s to iPhone X. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
+  caveats: Currently in beta. 14.0+ only supports iPhone 6S/SE and other A9 devices via Semi-tethered. Windows version coming soon, some device support not fully tested yet.
+
+- jailbroken: true
+  name: unc0ver
+  url: https://checkra.in/
+  firmwares:
+    start: 14.0
+    end: 14.3
+  platforms:
+  - macOS
+  - Linux
+  caveats: >
+    Semi-Untethered Only. Only supports devices with the A9 chip or below. Follow the Cydia Impactor method of installing
+    the Jailbreak.
 
 - jailbroken: true
   name: unc0ver
