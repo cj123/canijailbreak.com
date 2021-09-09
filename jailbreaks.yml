@@ -15,7 +15,7 @@ jailbreaks:
   url: https://unc0ver.dev/
   firmwares:
     start: 11.0
-    end: 13.5
+    end: 14.3
   platforms:
   - Windows
   - macOS
