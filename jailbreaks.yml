@@ -1,21 +1,110 @@
 jailbreaks:
 - jailbroken: true
-  name: checkra1n
-  url: https://checkra.in/
+  name: odysseyra1n
+  url: https://ios.cfw.guide/installing-odysseyra1n/
   firmwares:
-    start: 12.3
-    end: 13.5
+    start: 13.0
+    end: 13.7
   platforms:
   - macOS
   - Linux
-  caveats: Currently in beta. Supports devices iPhone 5s to iPhone X. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
+  caveats: Uses checkra1n for the initial jailbreak and for booting the device. Supports A8X to A11 devices. Semi-tethered. Windows version coming soon, some device support not fully tested yet. Sileo installed by default (not Cydia).
+
+- jailbroken: true
+  name: checkra1n
+  url: https://checkra.in/
+  firmwares:
+    start: 13.0
+    end: 13.7
+  platforms:
+  - macOS
+  - Linux
+  caveats: Currently in beta. Supports A8X to A11 devices. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
+
+- jailbroken: true
+  name: Odyssey
+  url: https://theodyssey.dev/
+  firmwares:
+    start: 13.0
+    end: 13.7
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: >
+    Semi-Untethered Only. Follow the Cydia Impactor method of installing
+    the Jailbreak. Sileo installed by default (not Cydia).
 
 - jailbroken: true
   name: unc0ver
   url: https://unc0ver.dev/
   firmwares:
+    start: 13.0
+    end: 13.7
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: >
+    Semi-Untethered Only. For iOS 13.0 - 13.5 use unc0ver 5.3.1. For 13.5.1 - 13.7 use unc0ver 6.1.1. Follow the Cydia Impactor method of installing
+    the Jailbreak.
+
+- jailbroken: true
+  name: odysseyra1n
+  url: https://ios.cfw.guide/installing-odysseyra1n/
+  firmwares:
+    start: 12.0
+    end: 12.5.7
+  platforms:
+  - macOS
+  - Linux
+  caveats: Uses checkra1n for the initial jailbreak and for booting the device. Supports A7 to A11 devices. Semi-tethered. Windows version coming soon, some device support not fully tested yet. Sileo installed by default (not Cydia).
+
+- jailbroken: true
+  name: checkra1n
+  url: https://checkra.in/
+  firmwares:
+    start: 12.0
+    end: 12.5.7
+  platforms:
+  - macOS
+  - Linux
+  caveats: Currently in beta. Supports A7 to A11 devices. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
+
+- jailbroken: true
+  name: Chimera
+  url: https://chimera.sh/
+  firmwares:
+    start: 12.0
+    end: 12.5.7
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: >
+    Semi-Untethered Only. A12 devices only supported on iOS 12.0 - 12.1.2. Follow the Cydia Impactor method of installing
+    the Jailbreak. Sileo installed by default (not Cydia).
+
+- jailbroken: true
+  name: unc0ver
+  url: https://unc0ver.dev/
+  firmwares:
+    start: 12.0
+    end: 12.5.5
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: >
+    Semi-Untethered Only. For iOS 12.0 - 12.4.8 use unc0ver 5.3.1. For iOS 12.4.9 - 12.5.4 use unc0ver 6.1.1. For iOS 12.5.5 use unc0ver 7.0.2. Follow the Cydia Impactor method of installing
+    the Jailbreak.    
+
+- jailbroken: true
+  name: Electra
+  url: https://coolstar.org/electra/
+  firmwares:
     start: 11.0
-    end: 13.5
+    end: 11.4.1
   platforms:
   - Windows
   - macOS
@@ -25,32 +114,29 @@ jailbreaks:
     the Jailbreak.
 
 - jailbroken: true
-  name: Chimera
-  url: https://chimera.sh/
+  name: unc0ver
+  url: https://unc0ver.dev/
   firmwares:
-    start: 12.1.3
-    end: 12.2
+    start: 11.0
+    end: 11.4.1
   platforms:
   - Windows
   - macOS
   - Linux
   caveats: >
     Semi-Untethered Only. Follow the Cydia Impactor method of installing
-    the Jailbreak. A12 devices are not supported. Sileo installed by default (not Cydia).
+    the Jailbreak.
 
 - jailbroken: true
-  name: Chimera
-  url: https://chimera.sh/
+  name: TotallyNotSpyware
+  url: https://totally-not.spyware.lol
   firmwares:
-    start: 12.0
-    end: 12.1.2
+    start: 10.0
+    end: 10.3.3
   platforms:
-  - Windows
-  - macOS
-  - Linux
+  - iOS
   caveats: >
-    Semi-Untethered Only. Follow the Cydia Impactor method of installing
-    the Jailbreak. Sileo installed by default (not Cydia).
+    64-bit devices only.
 
 - jailbroken: true
   name: Meridian
@@ -63,7 +149,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. Follow the Cydia Impactor method of installing
+    64-bit devices only. Semi-Untethered Only. Follow the Cydia Impactor method of installing
     the Jailbreak.
 
 - jailbroken: true
@@ -71,7 +157,7 @@ jailbreaks:
   url: https://doubleh3lix.tihmstar.net
   firmwares:
     start: 10.0
-    end: 10.3.4
+    end: 10.3.3
   platforms:
   - Windows
   - macOS
