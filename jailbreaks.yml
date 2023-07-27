@@ -1,5 +1,42 @@
 jailbreaks:
 - jailbroken: true
+  name: checkra1n
+  url: https://checkra.in/
+  firmwares:
+    start: 14.0
+    end: 14.8.1
+  platforms:
+  - macOS
+  - Linux
+  caveats: Currently in beta. Supports A8X to A11 devices. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
+
+- jailbroken: true
+  name: Taurine
+  url: https://taurine.app/
+  firmwares:
+    start: 14.0
+    end: 14.3
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: >
+    Semi-Untethered Only. On A8X to A11 devices install using Sideloadly or AltStore. On A12 to A14 devices install using TrollStore. Sileo installed by default (not Cydia).
+
+- jailbroken: true
+  name: unc0ver
+  url: https://unc0ver.dev/
+  firmwares:
+    start: 14.0
+    end: 14.8
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: >
+    Semi-Untethered Only. A8X to A11 devices only supported on iOS 14.0 - 14.3. Only A12 and A13 iPhone devices supported on iOS 14.6 - 14.8. On A8X to A11 devices install using Sideloadly or AltStore. On A12 to A14 devices on iOS 14.0 - 14.3 and A12 to A13 iPhone devices on iOS 14.6 - 14.8 install using TrollStore. On A12 to A14 devices on iOS 14.3 - 14.5.1 install using Fugu14. Untethered on iOS 14.3 - 14.5.1 when installed with Fugu14.
+
+- jailbroken: true
   name: odysseyra1n
   url: https://ios.cfw.guide/installing-odysseyra1n/
   firmwares:
