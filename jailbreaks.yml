@@ -1,4 +1,47 @@
 jailbreaks:
+- jailbroken: false
+  name:
+  url:
+  firmwares:
+    start: 15.5
+    end: 16.6
+  platforms:
+  caveats: For A12 to A16 devices only.
+
+- jailbroken: true
+  name: palera1n
+  url: https://palera.in
+  firmwares:
+    start: 16.0
+    end: 16.6
+  platforms:
+  - macOS
+  - Linux
+  caveats: Currently in beta. Supports A9 - A10X iPads and A11 iPhones. On A11 devices passcode and Face ID must be disabled since the last restore. Semi-tethered. Supports rootful and rootless. Sileo installed by default (not Cydia).
+
+- jailbroken: true
+  name: Dopamine
+  url: https://ellekit.space/dopamine/
+  firmwares:
+    start: 15.0
+    end: 15.4.1
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  caveats: Supports A12 to A15 and M1 devices. Rootless only. Install using TrollStore. Sileo or Zebra installed by default (not Cydia).
+
+- jailbroken: true
+  name: palera1n
+  url: https://palera.in
+  firmwares:
+    start: 15.0
+    end: 15.7.8
+  platforms:
+  - macOS
+  - Linux
+  caveats: Currently in beta. Supports A8X to A11 devices. On A11 devices passcode and Face ID must be disabled before jailbreaking and cannot be enabled when jailbroken. Semi-tethered. Supports rootful and rootless. Sileo installed by default (not Cydia).
+
 - jailbroken: true
   name: checkra1n
   url: https://checkra.in/
@@ -8,7 +51,7 @@ jailbreaks:
   platforms:
   - macOS
   - Linux
-  caveats: Currently in beta. Supports A8X to A11 devices. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
+  caveats: Currently in beta. Supports A8X to A11 devices. On A11 devices passcode and Face ID must be disabled before jailbreaking and cannot be enabled when jailbroken. Semi-tethered. Windows version coming soon, some device support not fully tested yet.
 
 - jailbroken: true
   name: Taurine
@@ -34,7 +77,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. A8X to A11 devices only supported on iOS 14.0 - 14.3. Only A12 and A13 iPhone devices supported on iOS 14.6 - 14.8. On A8X to A11 devices install using Sideloadly or AltStore. On A12 to A14 devices on iOS 14.0 - 14.3 and A12 to A13 iPhone devices on iOS 14.6 - 14.8 install using TrollStore. On A12 to A14 devices on iOS 14.3 - 14.5.1 install using Fugu14. Untethered on iOS 14.3 - 14.5.1 when installed with Fugu14.
+    Semi-Untethered on iOS 14.0 - 14.3 and iOS 14.6 - 14.8. Untethered on iOS 14.3 - 14.5.1 on A12 to A14 devices when installed with Fugu14. A8X to A11 devices only supported on iOS 14.0 - 14.3. Only A12 and A13 iPhone devices supported on iOS 14.6 - 14.8. On A8X to A11 devices install using Sideloadly or AltStore. On A12 to A14 devices on iOS 14.0 - 14.3 and A12 to A13 iPhone devices on iOS 14.6 - 14.8 install using TrollStore. On A12 to A14 devices on iOS 14.3 - 14.5.1 install using Fugu14.
 
 - jailbroken: true
   name: odysseyra1n
@@ -69,8 +112,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. Follow the Cydia Impactor method of installing
-    the Jailbreak. Sileo installed by default (not Cydia).
+    Semi-Untethered Only. Install using Sideloadly or AltStore. Sileo installed by default (not Cydia).
 
 - jailbroken: true
   name: unc0ver
@@ -83,8 +125,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. For iOS 13.0 - 13.5 use unc0ver 5.3.1. For 13.5.1 - 13.7 use unc0ver 6.1.1. Follow the Cydia Impactor method of installing
-    the Jailbreak.
+    Semi-Untethered Only. For iOS 13.0 - 13.5 use unc0ver 5.3.1. For 13.5.1 - 13.7 use unc0ver 6.1.1. Install using Sideloadly or AltStore.
 
 - jailbroken: true
   name: odysseyra1n
@@ -119,8 +160,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. A12 devices only supported on iOS 12.0 - 12.1.2. Follow the Cydia Impactor method of installing
-    the Jailbreak. Sileo installed by default (not Cydia).
+    Semi-Untethered Only. A12 devices only supported on iOS 12.0 - 12.1.2. Install using Sideloadly or AltStore on iOS 12.2 and higher. Sileo installed by default (not Cydia).
 
 - jailbroken: true
   name: unc0ver
@@ -133,8 +173,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. For iOS 12.0 - 12.4.8 use unc0ver 5.3.1. For iOS 12.4.9 - 12.5.4 use unc0ver 6.1.1. For iOS 12.5.5 use unc0ver 7.0.2. Follow the Cydia Impactor method of installing
-    the Jailbreak.    
+    Semi-Untethered Only. For iOS 12.0 - 12.4.8 use unc0ver 5.3.1. For iOS 12.4.9 - 12.5.4 use unc0ver 6.1.1. For iOS 12.5.5 use unc0ver 7.0.2. Install using Sideloadly or AltStore on iOS 12.2 and higher.    
 
 - jailbroken: true
   name: Electra
@@ -147,8 +186,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. Follow the Cydia Impactor method of installing
-    the Jailbreak.
+    Semi-Untethered Only. Install using Sideloadly.
 
 - jailbroken: true
   name: unc0ver
@@ -161,8 +199,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    Semi-Untethered Only. Follow the Cydia Impactor method of installing
-    the Jailbreak.
+    Semi-Untethered Only. Install using Sideloadly.
 
 - jailbroken: true
   name: TotallyNotSpyware
@@ -173,7 +210,7 @@ jailbreaks:
   platforms:
   - iOS
   caveats: >
-    64-bit devices only.
+    64-bit devices only. Visit https://totally-not.spyware.lol on the device itself.
 
 - jailbroken: true
   name: Meridian
@@ -186,8 +223,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: >
-    64-bit devices only. Semi-Untethered Only. Follow the Cydia Impactor method of installing
-    the Jailbreak.
+    64-bit devices only. Semi-Untethered Only. Install using Sideloadly.
 
 - jailbroken: true
   name: doubleH3lix
@@ -199,8 +235,7 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: 64-bit devices with a headphone jack supported. Semi-untethered only. Follow
-    the Cydia Impactor method of installing the Jailbreak.
+  caveats: 64-bit devices with a headphone jack supported. Semi-untethered only. Install using Sideloadly.
 
 - jailbroken: true
   name: H3lix
@@ -212,8 +247,7 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: 32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method
-    of installing the Jailbreak.
+  caveats: 32-bit devices only. Semi-untethered only. Install using Sideloadly.
 
 - jailbroken: true
   name: Phœnix
@@ -225,8 +259,7 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: 32-bit devices only. Semi-untethered only. Follow the Cydia Impactor method
-    of installing the Jailbreak.
+  caveats: 32-bit devices only. Semi-untethered only. Install using Sideloadly.
 
 - jailbroken: true
   name: Jailbreak.me
@@ -249,8 +282,7 @@ jailbreaks:
   - macOS
   - Linux
   caveats: 32-bit devices only. Semi-untethered, but can be untethered by installing
-    UntetherHomeDepot via tihmstar's Cydia repo. Follow the Cydia Impactor method
-    of installing the Jailbreak.
+    UntetherHomeDepot via tihmstar's Cydia repo. Install using Sideloadly.
 
 - jailbroken: true
   name: Pangu
@@ -262,8 +294,7 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: 64-bit devices only. Semi-untethered only. Follow the Cydia Impactor method
-    of installing the Jailbreak.
+  caveats: 64-bit devices only. Semi-untethered only. Install using Sideloadly.
 
 - jailbroken: true
   name: Pangu
@@ -286,8 +317,7 @@ jailbreaks:
   - Windows
   - macOS
   - Linux
-  caveats: 32-bit devices only. Follow the Cydia Impactor method of installing the
-    Jailbreak.
+  caveats: 32-bit devices only. Install using Sideloadly.
 
 - jailbroken: true
   name: TaiG
