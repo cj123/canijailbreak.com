@@ -4,16 +4,25 @@ jailbreaks:
   url:
   firmwares:
     start: 15.5
-    end: 16.6
+    end: 17.0.2
   platforms:
   caveats: For A12 to A16 devices only.
+
+- jailbroken: false
+  name:
+  url:
+  firmwares:
+    start: 17.0
+    end: 17.0.2
+  platforms:
+  caveats: A9(X) and A10(X) devices only.
 
 - jailbroken: true
   name: palera1n
   url: https://palera.in
   firmwares:
     start: 16.0
-    end: 16.6
+    end: 16.7
   platforms:
   - macOS
   - Linux
@@ -58,7 +67,7 @@ jailbreaks:
   url: https://taurine.app/
   firmwares:
     start: 14.0
-    end: 14.3
+    end: 14.8.1
   platforms:
   - Windows
   - macOS
