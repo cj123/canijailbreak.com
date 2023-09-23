@@ -77,7 +77,14 @@
                     <p class="text-danger">
                         <i class="fa fa-times"></i> No jailbreak yet :(. Check back later!<br>
                     </p>
+                    {{ end }}
+                    
+                    {{ with $jb.Caveats }}
+                        <p class="text-warning">
+                            {{ . | trustHTML }}
+                        </p>
                 {{ end }}
+
             </div>
         {{ end }}
     </div>
