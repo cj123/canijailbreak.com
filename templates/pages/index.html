@@ -68,11 +68,6 @@
                         <i class="fa fa-{{ $plat | osIcon }}" title="{{ $plat }} compatible"></i>
                     {{ end }}
 
-                    {{ with $jb.Caveats }}
-                        <p class="text-warning">
-                            {{ . | trustHTML }}
-                        </p>
-                    {{ end }}
                 {{ else }}
                     <p class="text-danger">
                         <i class="fa fa-times"></i> No jailbreak yet :(. Check back later!<br>
